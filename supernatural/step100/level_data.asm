@@ -1,0 +1,2880 @@
+EL_SN_TOMBSTONE = 0
+EL_SN_FENCE_1 = 1
+EL_SN_CROSS = 2
+EL_SN_TREE_1 = 3
+EL_SN_MOON = 4
+EL_SN_SMALL_TREE = 5
+EL_SN_TOMB_DOOR = 6
+EL_SN_ROCK = 7
+EL_SN_BROWN_ROCK = 8
+EL_SN_ROCK_SMALL = 9
+EL_SN_BROWN_ROCK_SMALL = 10
+EL_SN_HOUSE_DOOR = 11
+EL_SN_WOODEN_FLOOR = 12
+EL_SN_BRICK = 13
+EL_SN_BRICK_2X2 = 14
+EL_SN_STONE = 15
+EL_SN_STONE_UPPER_HALF = 16
+EL_SN_STONE_RIGHT_HALF = 17
+EL_SN_STONE_LOWER_HALF = 18
+EL_SN_REDROCK = 19
+EL_SN_PLATFORM_GRASS = 20
+EL_SN_WOODEN_FLOOR_NS = 21
+EL_SN_WOODEN_FLOOR_RS = 22
+EL_SN_STONE_LOWER_HALF_2 = 23
+EL_SN_STONE_LEFT_HALF = 24
+EL_SN_SEWER_PIPE = 25
+EL_SN_SEWER_PIPE_RED = 26
+EL_SN_RED_STONE_3 = 27
+EL_SN_RED_STONE_4 = 28
+EL_SN_RED_ROCK_BACKGROUND = 29
+EL_SN_REDDISH_ROCK = 30
+EL_SN_RED_STONE_LEFT = 31
+EL_SN_RED_STONE_RIGHT = 32
+EL_SN_RED_STONE_CENTER = 33
+EL_SN_BLUE_ROCK_BACKGROUND = 34
+EL_SN_SAND_FLOOR = 35
+EL_SN_SLIME_CEILING = 36
+EL_SN_SLIME_STONE_4 = 37
+EL_SN_SAND_STONE_4 = 38
+EL_SN_STALACTITE = 39
+EL_SN_STALACTITE_BIG = 40
+EL_SN_REDROCKV = 41
+EL_SN_BLUEROCK = 42
+EL_SN_SLIME_STONE_2 = 43
+EL_SN_METAL.DOOR.L = 44
+EL_SN_METAL.DOOR.R = 45
+EL_SN_METAL.COLUMN.L.TOP = 46
+EL_SN_METAL.COLUMN.L.CENTER = 47
+EL_SN_METAL.COLUMN.L.HOLE = 48
+EL_SN_METAL.COLUMN.R.TOP = 49
+EL_SN_METAL.COLUMN.R.CENTER = 50
+EL_SN_METAL.COLUMN.R.BOTTOM = 51
+EL_SN_SAND_STONE_2 = 52
+EL_SN_BRICK2_2X1 = 53
+EL_SN_STAR = 54
+EL_SN_WOODEN_FLOOR2 = 55
+EL_SN_WOODEN_FLOOR3 = 56
+EL_SN_HORIZROCK = 57
+EL_SN_VERTROCK = 58
+
+SNELEMENT_WIDTH_TABLE
+!byte 2,3,2,4,2,2,2,3,3,3,3,2,2,2,2,4,4,2,4,4,2,2,2,4,2,2,2,3,4,2,3,2,2,2,2,2,2,4,4,1,2,1,4,2,2,2,2,2,2,2,2,2,2,2,1,2,2,2,4
+SNELEMENT_HEIGHT_TABLE
+!byte 2,2,2,5,2,2,3,4,4,2,2,3,3,1,2,3,2,3,1,1,2,1,3,2,3,2,2,2,2,4,4,2,2,2,4,1,1,2,2,2,3,4,1,2,5,5,1,1,2,1,1,2,2,1,1,2,3,3,1
+SNELEMENT_TABLE_LO
+!byte <DATA_EL_SN_TOMBSTONE
+!byte <DATA_EL_SN_BLUE_ROCK_BACKGROUND+0
+!byte <DATA_EL_SN_CROSS
+!byte <DATA_EL_SN_TREE_1
+!byte <DATA_EL_SN_MOON
+!byte <DATA_EL_SN_SMALL_TREE
+!byte <DATA_EL_SN_TOMB_DOOR
+!byte <DATA_EL_SN_BROWN_ROCK+0
+!byte <DATA_EL_SN_BROWN_ROCK
+!byte <DATA_EL_SN_BROWN_ROCK+0
+!byte <DATA_EL_SN_BROWN_ROCK+0
+!byte <DATA_EL_SN_HOUSE_DOOR
+!byte <DATA_EL_SN_WOODEN_FLOOR_RS+0
+!byte <DATA_EL_SN_BRICK
+!byte <DATA_EL_SN_BRICK_2X2
+!byte <DATA_EL_SN_STONE
+!byte <DATA_EL_SN_STONE+0
+!byte <DATA_EL_SN_STONE_RIGHT_HALF
+!byte <DATA_EL_SN_STONE+8
+!byte <DATA_EL_SN_BLUEROCK+0
+!byte <DATA_EL_SN_PLATFORM_GRASS
+!byte <DATA_EL_SN_WOODEN_FLOOR_RS+0
+!byte <DATA_EL_SN_WOODEN_FLOOR_RS
+!byte <DATA_EL_SN_STONE+4
+!byte <DATA_EL_SN_STONE_LEFT_HALF
+!byte <DATA_EL_SN_SEWER_PIPE_RED+0
+!byte <DATA_EL_SN_SEWER_PIPE_RED
+!byte <DATA_EL_SN_RED_STONE_3
+!byte <DATA_EL_SN_RED_STONE_4
+!byte <DATA_EL_SN_BLUE_ROCK_BACKGROUND+0
+!byte <DATA_EL_SN_REDDISH_ROCK
+!byte <DATA_EL_SN_RED_STONE_LEFT
+!byte <DATA_EL_SN_RED_STONE_RIGHT
+!byte <DATA_EL_SN_RED_STONE_CENTER
+!byte <DATA_EL_SN_BLUE_ROCK_BACKGROUND
+!byte <DATA_EL_SN_SAND_FLOOR
+!byte <DATA_EL_SN_SLIME_CEILING
+!byte <DATA_EL_SN_SAND_STONE_4+0
+!byte <DATA_EL_SN_SAND_STONE_4
+!byte <DATA_EL_SN_STONE+2
+!byte <DATA_EL_SN_STONE+4
+!byte <DATA_EL_SN_BLUEROCK+0
+!byte <DATA_EL_SN_BLUEROCK
+!byte <DATA_EL_SN_SAND_STONE_2+0
+!byte <DATA_EL_SN_METAL.DOOR.L
+!byte <DATA_EL_SN_METAL.DOOR.R
+!byte <DATA_EL_SN_METAL.COLUMN.L.TOP
+!byte <DATA_EL_SN_METAL.COLUMN.L.CENTER
+!byte <DATA_EL_SN_METAL.COLUMN.L.HOLE
+!byte <DATA_EL_SN_STONE+10
+!byte <DATA_EL_SN_METAL.COLUMN.R.CENTER
+!byte <DATA_EL_SN_METAL.COLUMN.R.BOTTOM
+!byte <DATA_EL_SN_SAND_STONE_2
+!byte <DATA_EL_SN_BRICK2_2X1
+!byte <DATA_EL_SN_STAR
+!byte <DATA_EL_SN_WOODEN_FLOOR3+0
+!byte <DATA_EL_SN_WOODEN_FLOOR3
+!byte <DATA_EL_SN_HORIZROCK
+!byte <DATA_EL_SN_STONE+4
+
+SNELEMENT_TABLE_HI
+!byte >DATA_EL_SN_TOMBSTONE
+!byte >DATA_EL_SN_BLUE_ROCK_BACKGROUND+0
+!byte >DATA_EL_SN_CROSS
+!byte >DATA_EL_SN_TREE_1
+!byte >DATA_EL_SN_MOON
+!byte >DATA_EL_SN_SMALL_TREE
+!byte >DATA_EL_SN_TOMB_DOOR
+!byte >DATA_EL_SN_BROWN_ROCK+0
+!byte >DATA_EL_SN_BROWN_ROCK
+!byte >DATA_EL_SN_BROWN_ROCK+0
+!byte >DATA_EL_SN_BROWN_ROCK+0
+!byte >DATA_EL_SN_HOUSE_DOOR
+!byte >DATA_EL_SN_WOODEN_FLOOR_RS+0
+!byte >DATA_EL_SN_BRICK
+!byte >DATA_EL_SN_BRICK_2X2
+!byte >DATA_EL_SN_STONE
+!byte >DATA_EL_SN_STONE+0
+!byte >DATA_EL_SN_STONE_RIGHT_HALF
+!byte >DATA_EL_SN_STONE+8
+!byte >DATA_EL_SN_BLUEROCK+0
+!byte >DATA_EL_SN_PLATFORM_GRASS
+!byte >DATA_EL_SN_WOODEN_FLOOR_RS+0
+!byte >DATA_EL_SN_WOODEN_FLOOR_RS
+!byte >DATA_EL_SN_STONE+4
+!byte >DATA_EL_SN_STONE_LEFT_HALF
+!byte >DATA_EL_SN_SEWER_PIPE_RED+0
+!byte >DATA_EL_SN_SEWER_PIPE_RED
+!byte >DATA_EL_SN_RED_STONE_3
+!byte >DATA_EL_SN_RED_STONE_4
+!byte >DATA_EL_SN_BLUE_ROCK_BACKGROUND+0
+!byte >DATA_EL_SN_REDDISH_ROCK
+!byte >DATA_EL_SN_RED_STONE_LEFT
+!byte >DATA_EL_SN_RED_STONE_RIGHT
+!byte >DATA_EL_SN_RED_STONE_CENTER
+!byte >DATA_EL_SN_BLUE_ROCK_BACKGROUND
+!byte >DATA_EL_SN_SAND_FLOOR
+!byte >DATA_EL_SN_SLIME_CEILING
+!byte >DATA_EL_SN_SAND_STONE_4+0
+!byte >DATA_EL_SN_SAND_STONE_4
+!byte >DATA_EL_SN_STONE+2
+!byte >DATA_EL_SN_STONE+4
+!byte >DATA_EL_SN_BLUEROCK+0
+!byte >DATA_EL_SN_BLUEROCK
+!byte >DATA_EL_SN_SAND_STONE_2+0
+!byte >DATA_EL_SN_METAL.DOOR.L
+!byte >DATA_EL_SN_METAL.DOOR.R
+!byte >DATA_EL_SN_METAL.COLUMN.L.TOP
+!byte >DATA_EL_SN_METAL.COLUMN.L.CENTER
+!byte >DATA_EL_SN_METAL.COLUMN.L.HOLE
+!byte >DATA_EL_SN_STONE+10
+!byte >DATA_EL_SN_METAL.COLUMN.R.CENTER
+!byte >DATA_EL_SN_METAL.COLUMN.R.BOTTOM
+!byte >DATA_EL_SN_SAND_STONE_2
+!byte >DATA_EL_SN_BRICK2_2X1
+!byte >DATA_EL_SN_STAR
+!byte >DATA_EL_SN_WOODEN_FLOOR3+0
+!byte >DATA_EL_SN_WOODEN_FLOOR3
+!byte >DATA_EL_SN_HORIZROCK
+!byte >DATA_EL_SN_STONE+4
+
+SNELEMENT_COLOR_TABLE_LO
+!byte <COLOR_EL_SN_TREE_1+0
+!byte <COLOR_EL_SN_TREE_1+0
+!byte <COLOR_EL_SN_TREE_1+0
+!byte <COLOR_EL_SN_TREE_1
+!byte <COLOR_EL_SN_MOON
+!byte <COLOR_EL_SN_TREE_1+0
+!byte <COLOR_EL_SN_RED_ROCK_BACKGROUND+0
+!byte <COLOR_EL_SN_STONE+0
+!byte <COLOR_EL_SN_BROWN_ROCK
+!byte <COLOR_EL_SN_STONE+0
+!byte <COLOR_EL_SN_BROWN_ROCK+0
+!byte <COLOR_EL_SN_RED_ROCK_BACKGROUND+0
+!byte <COLOR_EL_SN_WOODEN_FLOOR
+!byte <COLOR_EL_SN_REDDISH_ROCK+0
+!byte <COLOR_EL_SN_METAL.DOOR.R+0
+!byte <COLOR_EL_SN_STONE
+!byte <COLOR_EL_SN_STONE+0
+!byte <COLOR_EL_SN_STONE+0
+!byte <COLOR_EL_SN_STONE+0
+!byte <COLOR_EL_SN_REDDISH_ROCK+0
+!byte <COLOR_EL_SN_PLATFORM_GRASS
+!byte <COLOR_EL_SN_WOODEN_FLOOR+0
+!byte <COLOR_EL_SN_WOODEN_FLOOR_RS
+!byte <COLOR_EL_SN_STONE+0
+!byte <COLOR_EL_SN_STONE+0
+!byte <COLOR_EL_SN_TREE_1+0
+!byte <COLOR_EL_SN_RED_ROCK_BACKGROUND+0
+!byte <COLOR_EL_SN_RED_STONE_4+1
+!byte <COLOR_EL_SN_RED_STONE_4
+!byte <COLOR_EL_SN_RED_ROCK_BACKGROUND
+!byte <COLOR_EL_SN_REDDISH_ROCK
+!byte <COLOR_EL_SN_BROWN_ROCK+0
+!byte <COLOR_EL_SN_BROWN_ROCK+0
+!byte <COLOR_EL_SN_BROWN_ROCK+0
+!byte <COLOR_EL_SN_TREE_1+0
+!byte <COLOR_EL_SN_SAND_FLOOR
+!byte <COLOR_EL_SN_BROWN_ROCK+0
+!byte <COLOR_EL_SN_SLIME_STONE_4
+!byte <COLOR_EL_SN_SAND_STONE_4
+!byte <COLOR_EL_SN_REDDISH_ROCK+0
+!byte <COLOR_EL_SN_REDDISH_ROCK+0
+!byte <COLOR_EL_SN_REDDISH_ROCK+0
+!byte <COLOR_EL_SN_BLUEROCK
+!byte <COLOR_EL_SN_SLIME_STONE_4+2
+!byte <COLOR_EL_SN_METAL.DOOR.R+0
+!byte <COLOR_EL_SN_METAL.DOOR.R
+!byte <COLOR_EL_SN_METAL.DOOR.R+0
+!byte <COLOR_EL_SN_METAL.DOOR.R+0
+!byte <COLOR_EL_SN_METAL.DOOR.R+0
+!byte <COLOR_EL_SN_METAL.DOOR.R+0
+!byte <COLOR_EL_SN_METAL.DOOR.R+0
+!byte <COLOR_EL_SN_METAL.DOOR.R+0
+!byte <COLOR_EL_SN_SAND_STONE_4+2
+!byte <COLOR_EL_SN_BRICK2_2X1
+!byte <COLOR_EL_SN_TREE_1+0
+!byte <COLOR_EL_SN_WOODEN_FLOOR2
+!byte <COLOR_EL_SN_WOODEN_FLOOR3
+!byte <COLOR_EL_SN_STONE+0
+!byte <COLOR_EL_SN_STONE+0
+
+SNELEMENT_COLOR_TABLE_HI
+!byte >COLOR_EL_SN_TREE_1+0
+!byte >COLOR_EL_SN_TREE_1+0
+!byte >COLOR_EL_SN_TREE_1+0
+!byte >COLOR_EL_SN_TREE_1
+!byte >COLOR_EL_SN_MOON
+!byte >COLOR_EL_SN_TREE_1+0
+!byte >COLOR_EL_SN_RED_ROCK_BACKGROUND+0
+!byte >COLOR_EL_SN_STONE+0
+!byte >COLOR_EL_SN_BROWN_ROCK
+!byte >COLOR_EL_SN_STONE+0
+!byte >COLOR_EL_SN_BROWN_ROCK+0
+!byte >COLOR_EL_SN_RED_ROCK_BACKGROUND+0
+!byte >COLOR_EL_SN_WOODEN_FLOOR
+!byte >COLOR_EL_SN_REDDISH_ROCK+0
+!byte >COLOR_EL_SN_METAL.DOOR.R+0
+!byte >COLOR_EL_SN_STONE
+!byte >COLOR_EL_SN_STONE+0
+!byte >COLOR_EL_SN_STONE+0
+!byte >COLOR_EL_SN_STONE+0
+!byte >COLOR_EL_SN_REDDISH_ROCK+0
+!byte >COLOR_EL_SN_PLATFORM_GRASS
+!byte >COLOR_EL_SN_WOODEN_FLOOR+0
+!byte >COLOR_EL_SN_WOODEN_FLOOR_RS
+!byte >COLOR_EL_SN_STONE+0
+!byte >COLOR_EL_SN_STONE+0
+!byte >COLOR_EL_SN_TREE_1+0
+!byte >COLOR_EL_SN_RED_ROCK_BACKGROUND+0
+!byte >COLOR_EL_SN_RED_STONE_4+1
+!byte >COLOR_EL_SN_RED_STONE_4
+!byte >COLOR_EL_SN_RED_ROCK_BACKGROUND
+!byte >COLOR_EL_SN_REDDISH_ROCK
+!byte >COLOR_EL_SN_BROWN_ROCK+0
+!byte >COLOR_EL_SN_BROWN_ROCK+0
+!byte >COLOR_EL_SN_BROWN_ROCK+0
+!byte >COLOR_EL_SN_TREE_1+0
+!byte >COLOR_EL_SN_SAND_FLOOR
+!byte >COLOR_EL_SN_BROWN_ROCK+0
+!byte >COLOR_EL_SN_SLIME_STONE_4
+!byte >COLOR_EL_SN_SAND_STONE_4
+!byte >COLOR_EL_SN_REDDISH_ROCK+0
+!byte >COLOR_EL_SN_REDDISH_ROCK+0
+!byte >COLOR_EL_SN_REDDISH_ROCK+0
+!byte >COLOR_EL_SN_BLUEROCK
+!byte >COLOR_EL_SN_SLIME_STONE_4+2
+!byte >COLOR_EL_SN_METAL.DOOR.R+0
+!byte >COLOR_EL_SN_METAL.DOOR.R
+!byte >COLOR_EL_SN_METAL.DOOR.R+0
+!byte >COLOR_EL_SN_METAL.DOOR.R+0
+!byte >COLOR_EL_SN_METAL.DOOR.R+0
+!byte >COLOR_EL_SN_METAL.DOOR.R+0
+!byte >COLOR_EL_SN_METAL.DOOR.R+0
+!byte >COLOR_EL_SN_METAL.DOOR.R+0
+!byte >COLOR_EL_SN_SAND_STONE_4+2
+!byte >COLOR_EL_SN_BRICK2_2X1
+!byte >COLOR_EL_SN_TREE_1+0
+!byte >COLOR_EL_SN_WOODEN_FLOOR2
+!byte >COLOR_EL_SN_WOODEN_FLOOR3
+!byte >COLOR_EL_SN_STONE+0
+!byte >COLOR_EL_SN_STONE+0
+
+
+DATA_EL_SN_TOMBSTONE
+!byte 12,13,14,15
+DATA_EL_SN_CROSS
+!byte 102,103,104,105
+DATA_EL_SN_TREE_1
+!byte 32,34,35,36,37,38,39,40,32,42,43,44,32,45,46,32,32,47,58,32
+DATA_EL_SN_MOON
+!byte 24,25,26,27
+DATA_EL_SN_SMALL_TREE
+!byte 61,62,63,64
+DATA_EL_SN_TOMB_DOOR
+!byte 112,113,114,115,116,117
+DATA_EL_SN_BROWN_ROCK
+!byte 198,199,200,201,202,203,204,205,206,207,208,209
+DATA_EL_SN_HOUSE_DOOR
+!byte 118,119,120,121,122,123
+DATA_EL_SN_BRICK
+!byte 212,213
+DATA_EL_SN_BRICK_2X2
+!byte 214,217,222,227
+DATA_EL_SN_STONE
+!byte 214,215,216,217,218,219,220,221,222,223,226,227
+DATA_EL_SN_STONE_RIGHT_HALF
+!byte 216,217,220,221,226,227
+DATA_EL_SN_PLATFORM_GRASS
+!byte 160,161,92,92
+DATA_EL_SN_WOODEN_FLOOR_RS
+!byte 164,165,32,32,92,92
+DATA_EL_SN_STONE_LEFT_HALF
+!byte 214,215,218,219,222,223
+DATA_EL_SN_SEWER_PIPE_RED
+!byte 124,125,126,127
+DATA_EL_SN_RED_STONE_3
+!byte 160,162,161,0,0,0
+DATA_EL_SN_RED_STONE_4
+!byte 160,162,162,161,0,0,0,0
+DATA_EL_SN_REDDISH_ROCK
+!byte 199,200,201,202,203,204,205,206,207,208,209,210
+DATA_EL_SN_RED_STONE_LEFT
+!byte 160,162,32,32
+DATA_EL_SN_RED_STONE_RIGHT
+!byte 162,161,32,32
+DATA_EL_SN_RED_STONE_CENTER
+!byte 162,162,32,32
+DATA_EL_SN_BLUE_ROCK_BACKGROUND
+!byte 96,97,98,99,100,101,102,103
+DATA_EL_SN_SAND_FLOOR
+!byte 211,212
+DATA_EL_SN_SLIME_CEILING
+!byte 213,214
+DATA_EL_SN_SAND_STONE_4
+!byte 160,162,162,161,64,64,64,64
+DATA_EL_SN_BLUEROCK
+!byte 195,196,197,198
+DATA_EL_SN_METAL.DOOR.L
+!byte 123,124,125,126,125,64,125,126,131,132
+DATA_EL_SN_METAL.DOOR.R
+!byte 127,128,129,130,64,130,129,130,133,134
+DATA_EL_SN_METAL.COLUMN.L.TOP
+!byte 227,228
+DATA_EL_SN_METAL.COLUMN.L.CENTER
+!byte 231,232
+DATA_EL_SN_METAL.COLUMN.L.HOLE
+!byte 234,232,236,232
+DATA_EL_SN_METAL.COLUMN.R.CENTER
+!byte 229,230
+DATA_EL_SN_METAL.COLUMN.R.BOTTOM
+!byte 229,233,229,235
+DATA_EL_SN_SAND_STONE_2
+!byte 160,161,64,64
+DATA_EL_SN_BRICK2_2X1
+!byte 218,221
+DATA_EL_SN_STAR
+!byte 91
+DATA_EL_SN_WOODEN_FLOOR3
+!byte 164,165,0,0,92,92
+DATA_EL_SN_HORIZROCK
+!byte 215,216,219,219,223,226
+COLOR_EL_SN_TREE_1
+!byte 6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6
+COLOR_EL_SN_MOON
+!byte 1,1,1,1
+COLOR_EL_SN_BROWN_ROCK
+!byte 13,13,13,13,13,13,13,13,13,13,13,13
+COLOR_EL_SN_WOODEN_FLOOR
+!byte 14,14,6,6,6,6
+COLOR_EL_SN_STONE
+!byte 15,15,15,15,15,15,15,15,15,15,15,15
+COLOR_EL_SN_PLATFORM_GRASS
+!byte 13,13,6,6
+COLOR_EL_SN_WOODEN_FLOOR_RS
+!byte 14,14,2,2,6,6
+COLOR_EL_SN_RED_STONE_4
+!byte 13,13,13,13,0,0,0,0
+COLOR_EL_SN_RED_ROCK_BACKGROUND
+!byte 2,2,2,2,2,2,2,2
+COLOR_EL_SN_REDDISH_ROCK
+!byte 10,10,10,10,10,10,10,10,10,10,10,10
+COLOR_EL_SN_SAND_FLOOR
+!byte 9,9
+COLOR_EL_SN_SLIME_STONE_4
+!byte 12,12,12,12,0,0,0,0
+COLOR_EL_SN_SAND_STONE_4
+!byte 15,15,15,15,0,0,0,0
+COLOR_EL_SN_BLUEROCK
+!byte 14,14,14,14
+COLOR_EL_SN_METAL.DOOR.R
+!byte 11,11,11,11,11,11,11,11,11,11
+COLOR_EL_SN_BRICK2_2X1
+!byte 11,12
+COLOR_EL_SN_WOODEN_FLOOR2
+!byte 14,14,0,0
+COLOR_EL_SN_WOODEN_FLOOR3
+!byte 10,10,0,0,2,2
+
+
+SN_SCREEN_DATA_TABLE
+          !word SN_LEVEL_1
+          !word SN_LEVEL_2
+          !word SN_LEVEL_3
+          !word SN_LEVEL_4
+          !word SN_LEVEL_5
+          !word SN_LEVEL_6
+          !word SN_LEVEL_7
+          !word SN_LEVEL_8
+          !word SN_LEVEL_9
+          !word SN_LEVEL_10
+          !word SN_LEVEL_11
+          !word SN_LEVEL_12
+          !word SN_LEVEL_13
+          !word SN_LEVEL_14
+          !word SN_LEVEL_15
+          !word SN_LEVEL_16
+          !word SN_LEVEL_17
+          !word SN_LEVEL_18
+          !word SN_LEVEL_19
+          !word SN_LEVEL_20
+          !word SN_LEVEL_21
+          !word SN_LEVEL_22
+          !word SN_LEVEL_23
+          !word SN_LEVEL_24
+          !word SN_LEVEL_25
+          !word SN_LEVEL_26
+          !word SN_LEVEL_27
+          !word SN_LEVEL_28
+          !word SN_LEVEL_29
+          !word SN_LEVEL_30
+          !word SN_LEVEL_31
+          !word SN_LEVEL_32
+          !word SN_LEVEL_33
+          !word SN_LEVEL_34
+          !word SN_LEVEL_35
+          !word SN_LEVEL_36
+          !word SN_LEVEL_37
+          !word SN_LEVEL_38
+          !word SN_LEVEL_39
+          !word SN_LEVEL_40
+          !word SN_LEVEL_41
+          !word SN_LEVEL_42
+          !word SN_LEVEL_43
+          !word SN_LEVEL_44
+          !word SN_LEVEL_45
+          !word SN_LEVEL_46
+          !word SN_LEVEL_47
+          !word SN_LEVEL_48
+          !word SN_LEVEL_49
+          !word SN_LEVEL_50
+          !word SN_LEVEL_51
+          !word SN_LEVEL_52
+          !word SN_LEVEL_53
+          !word SN_LEVEL_54
+          !word SN_LEVEL_55
+          !word SN_LEVEL_56
+          !word SN_LEVEL_57
+          !word SN_LEVEL_58
+          !word SN_LEVEL_59
+          !word SN_LEVEL_60
+          !word SN_LEVEL_61
+          !word SN_LEVEL_62
+          !word SN_LEVEL_63
+          !word SN_LEVEL_64
+          !word SN_LEVEL_65
+          !word SN_LEVEL_66
+          !word SN_LEVEL_67
+          !word SN_LEVEL_68
+          !word SN_LEVEL_69
+          !word SN_LEVEL_70
+          !word SN_LEVEL_71
+          !word SN_LEVEL_72
+          !word 0
+
+
+SN_LEVEL_1
+          !byte LD_ELEMENT,13,17,EL_SN_TREE_1
+          !byte LD_ELEMENT,34,144
+          !byte LD_LINE_H_ALT,1,21,38,160,13
+          !byte LD_LINE_H_ALT,4,18,8,160,13
+          !byte LD_LINE_H_ALT,11,15,8,160,13
+          !byte LD_LINE_H_ALT,21,12,8,160,13
+          !byte LD_LINE_H_ALT,30,9,8,160,13
+          !byte LD_ELEMENT,14,13,EL_SN_FENCE_1
+          !byte LD_ELEMENT,32,135
+          !byte LD_OBJECT,14,20,TYPE_PLAYER_DEAN
+          !byte LD_SPAWN_SPOT,24,11,TYPE_ZOMBIE,3
+          !byte LD_OBJECT,22,20,TYPE_PLAYER_SAM
+          !byte LD_LINE_H_ALT,4,12,5,160,13
+          !byte LD_ELEMENT,9,4,EL_SN_MOON
+          !byte LD_SPAWN_SPOT,33,20,TYPE_ZOMBIE,3
+          !byte LD_ELEMENT,17,19,EL_SN_TOMBSTONE
+          !byte LD_ELEMENT,5,138
+          !byte LD_ELEMENT,7,16,EL_SN_CROSS
+          !byte LD_SPAWN_SPOT,7,17,TYPE_ZOMBIE,3
+          !byte LD_ELEMENT,3,19,EL_SN_SMALL_TREE
+          !byte LD_ELEMENT,24,16,EL_SN_TREE_1
+          !byte LD_ELEMENT,28,143
+          !byte LD_ELEMENT_LINE_H,24,19,3,EL_SN_FENCE_1
+          !byte LD_ELEMENT_LINE_H,7,19,3,EL_SN_SMALL_TREE
+          !byte LD_ELEMENT_LINE_H,21,10,2,EL_SN_SMALL_TREE
+          !byte LD_ELEMENT_LINE_H,27,10,1,EL_SN_SMALL_TREE
+          !byte LD_ELEMENT_LINE_H,7,10,1,EL_SN_SMALL_TREE
+          !byte LD_ELEMENT_LINE_H,36,7,1,EL_SN_SMALL_TREE
+          !byte LD_ELEMENT_LINE_H,11,13,1,EL_SN_SMALL_TREE
+          !byte LD_ELEMENT,3,4,EL_SN_STAR
+          !byte LD_ELEMENT,11,136
+          !byte LD_ELEMENT,13,135
+          !byte LD_ELEMENT,43,133
+          !byte LD_ELEMENT,34,131
+          !byte LD_ELEMENT,15,129
+          !byte LD_END
+SN_LEVEL_2
+          !byte LD_LINE_H_ALT,1,15,10,196,13
+          !byte LD_LINE_H_ALT,27,15,12,196,13
+          !byte LD_LINE_H_ALT,11,18,16,196,13
+          !byte LD_AREA,1,16,10,3,195,10
+          !byte LD_AREA,1,19,38,3,195,10
+          !byte LD_SPAWN_SPOT,19,17,TYPE_ZOMBIE,8
+          !byte LD_ELEMENT,8,9,EL_SN_TREE_1
+          !byte LD_AREA,27,16,12,3,195,10
+          !byte LD_ELEMENT,15,141
+          !byte LD_ELEMENT,8,4,EL_SN_MOON
+          !byte LD_ELEMENT_LINE_H,2,13,3,EL_SN_FENCE_1
+          !byte LD_ELEMENT_LINE_H,29,13,3,EL_SN_FENCE_1
+          !byte LD_OBJECT,5,14,TYPE_PLAYER_DEAN
+          !byte LD_OBJECT,32,14,TYPE_PLAYER_SAM
+          !byte LD_LINE_H_ALT,13,15,12,160,13
+          !byte LD_ELEMENT,22,16,EL_SN_CROSS
+          !byte LD_ELEMENT,12,141
+          !byte LD_ELEMENT,14,16,EL_SN_TOMBSTONE
+          !byte LD_SPAWN_SPOT,8,5,TYPE_BAT_DIAG,5
+          !byte LD_LINE_H_ALT,4,12,4,160,13
+          !byte LD_LINE_H_ALT,32,12,4,160,13
+          !byte LD_ELEMENT,13,7,EL_SN_STAR
+          !byte LD_ELEMENT,4,136
+          !byte LD_ELEMENT,28,131
+          !byte LD_ELEMENT,17,138
+          !byte LD_ELEMENT,34,136
+          !byte LD_ELEMENT,12,131
+          !byte LD_ELEMENT,25,135
+          !byte LD_ELEMENT,15,135
+          !byte LD_ELEMENT_LINE_H,19,13,3,EL_SN_SMALL_TREE
+          !byte LD_ELEMENT_LINE_H,25,16,1,EL_SN_SMALL_TREE
+          !byte LD_ELEMENT_LINE_H,12,16,1,EL_SN_SMALL_TREE
+          !byte LD_END
+SN_LEVEL_3
+          !byte LD_LINE_H_ALT,1,13,8,196,13
+          !byte LD_LINE_H_ALT,9,15,4,196,13
+          !byte LD_LINE_H_ALT,13,19,14,196,13
+          !byte LD_LINE_H_ALT,31,13,8,196,13
+          !byte LD_LINE_H_ALT,27,15,4,196,13
+          !byte LD_AREA,1,14,8,8,195,13
+          !byte LD_AREA,31,14,8,8,195,13
+          !byte LD_AREA,9,16,4,6,195,13
+          !byte LD_AREA,27,16,4,6,195,13
+          !byte LD_AREA,13,20,14,2,195,13
+          !byte LD_ELEMENT,4,11,EL_SN_TOMBSTONE
+          !byte LD_ELEMENT,28,141
+          !byte LD_ELEMENT,32,11,EL_SN_CROSS
+          !byte LD_ELEMENT,27,141
+          !byte LD_ELEMENT,9,10,EL_SN_TREE_1
+          !byte LD_ELEMENT,21,141
+          !byte LD_ELEMENT,19,5,EL_SN_MOON
+          !byte LD_OBJECT,15,18,TYPE_PLAYER_DEAN
+          !byte LD_OBJECT,24,18,TYPE_PLAYER_SAM
+          !byte LD_SPAWN_SPOT,4,12,TYPE_ZOMBIE,4
+          !byte LD_SPAWN_SPOT,34,12,TYPE_ZOMBIE,4
+          !byte LD_SPAWN_SPOT,29,14,TYPE_ZOMBIE,4
+          !byte LD_SPAWN_SPOT,11,14,TYPE_ZOMBIE,4
+          !byte LD_ELEMENT,35,11,EL_SN_FENCE_1
+          !byte LD_ELEMENT,16,14,EL_SN_TREE_1
+          !byte LD_ELEMENT_LINE_H,1,11,2,EL_SN_FENCE_1
+          !byte LD_ELEMENT_LINE_H,14,17,4,EL_SN_FENCE_1
+          !byte LD_ELEMENT_LINE_H,20,15,1,EL_SN_SMALL_TREE
+          !byte LD_ELEMENT,10,3,EL_SN_STAR
+          !byte LD_ELEMENT,29,137
+          !byte LD_ELEMENT,19,136
+          !byte LD_ELEMENT,30,131
+          !byte LD_ELEMENT,4,130
+          !byte LD_ELEMENT,5,136
+          !byte LD_ELEMENT,15,135
+          !byte LD_ELEMENT,16,134
+          !byte LD_ELEMENT,36,132
+          !byte LD_ELEMENT,14,141
+          !byte LD_END
+SN_LEVEL_4
+          !byte LD_LINE_H_ALT,1,7,2,196,13
+          !byte LD_LINE_H_ALT,7,10,5,160,13
+          !byte LD_LINE_H_ALT,12,7,5,160,13
+          !byte LD_LINE_H_ALT,17,4,6,160,13
+          !byte LD_LINE_H_ALT,23,7,5,160,13
+          !byte LD_LINE_H_ALT,28,10,5,160,13
+          !byte LD_LINE_H_ALT,34,7,3,160,13
+          !byte LD_LINE_H_ALT,12,13,5,160,13
+          !byte LD_LINE_H_ALT,23,13,5,160,13
+          !byte LD_LINE_H_ALT,17,16,6,160,13
+          !byte LD_LINE_H_ALT,3,19,34,196,13
+          !byte LD_AREA,1,8,2,14,195,13
+          !byte LD_AREA,37,8,2,14,195,13
+          !byte LD_AREA,3,20,34,2,195,13
+          !byte LD_LINE_H_ALT,3,7,3,160,13
+          !byte LD_LINE_H_ALT,37,7,2,196,13
+          !byte LD_OBJECT,9,9,TYPE_PLAYER_DEAN
+          !byte LD_OBJECT,30,9,TYPE_PLAYER_SAM
+          !byte LD_SPAWN_SPOT,19,11,TYPE_BAT_DIAG,3
+          !byte LD_SPAWN_SPOT,34,17,TYPE_BAT_DIAG,3
+          !byte LD_SPAWN_SPOT,36,4,TYPE_BAT_DIAG,3
+          !byte LD_SPAWN_SPOT,3,4,TYPE_BAT_DIAG,3
+          !byte LD_SPAWN_SPOT,19,3,TYPE_ZOMBIE,3
+          !byte LD_ELEMENT,13,11,EL_SN_TOMBSTONE
+          !byte LD_ELEMENT,35,133
+          !byte LD_ELEMENT,26,14,EL_SN_TREE_1
+          !byte LD_ELEMENT,2,5,EL_SN_CROSS
+          !byte LD_ELEMENT,19,130
+          !byte LD_ELEMENT,25,145
+          !byte LD_ELEMENT,11,17,EL_SN_FENCE_1
+          !byte LD_ELEMENT,15,145
+          !byte LD_ELEMENT_LINE_H,31,17,2,EL_SN_FENCE_1
+          !byte LD_ELEMENT,18,11,EL_SN_TREE_1
+          !byte LD_ELEMENT,14,5,EL_SN_SMALL_TREE
+          !byte LD_LINE_H,5,15,6,92,2
+          !byte LD_AREA,5,16,6,3,93,2
+          !byte LD_LINE_V,4,15,4,95,2
+          !byte LD_LINE_V,11,15,4,95,2
+          !byte LD_SPAWN_SPOT,5,17,TYPE_BAT_DIAG,3
+          !byte LD_ELEMENT,7,16,EL_SN_TOMB_DOOR
+          !byte LD_LINE_H,4,14,8,110,2
+          !byte LD_ELEMENT,18,17,EL_SN_CROSS
+          !byte LD_ELEMENT,25,139
+          !byte LD_ELEMENT,23,17,EL_SN_TOMBSTONE
+          !byte LD_ELEMENT_LINE_H,29,8,2,EL_SN_SMALL_TREE
+          !byte LD_ELEMENT_LINE_H,21,17,1,EL_SN_SMALL_TREE
+          !byte LD_ELEMENT,13,2,EL_SN_STAR
+          !byte LD_ELEMENT,7,131
+          !byte LD_ELEMENT,37,129
+          !byte LD_ELEMENT,27,129
+          !byte LD_ELEMENT,23,137
+          !byte LD_ELEMENT,26,130
+          !byte LD_ELEMENT,6,132
+          !byte LD_END
+SN_LEVEL_5
+          !byte LD_ELEMENT,12,17,EL_SN_FENCE_1
+          !byte LD_AREA,5,14,6,5,93,2
+          !byte LD_AREA,29,10,6,5,93,2
+          !byte LD_LINE_H_ALT,1,19,14,210,13
+          !byte LD_LINE_H_ALT,24,15,15,210,13
+          !byte LD_LINE_H_ALT,15,13,9,210,13
+          !byte LD_ELEMENT_AREA,15,14,3,2,EL_SN_BROWN_ROCK
+          !byte LD_LINE_H,28,9,8,110,2
+          !byte LD_LINE_H,4,13,8,110,2
+          !byte LD_LINE_H,5,14,6,92,2
+          !byte LD_LINE_H,29,10,6,92,2
+          !byte LD_LINE_V,4,14,5,95,2
+          !byte LD_LINE_V,11,14,5,95,2
+          !byte LD_LINE_V,35,10,5,95,2
+          !byte LD_LINE_V,28,10,5,95,2
+          !byte LD_LINE_H_ALT,10,16,5,160,13
+          !byte LD_ELEMENT,7,16,EL_SN_TOMB_DOOR
+          !byte LD_ELEMENT,31,140
+          !byte LD_ELEMENT,17,11,EL_SN_SMALL_TREE
+          !byte LD_ELEMENT,18,8,EL_SN_TREE_1
+          !byte LD_ELEMENT,10,5,EL_SN_MOON
+          !byte LD_OBJECT,16,12,TYPE_PLAYER_DEAN
+          !byte LD_OBJECT,22,12,TYPE_PLAYER_SAM
+          !byte LD_SPAWN_SPOT,7,16,TYPE_BAT_DIAG,3
+          !byte LD_SPAWN_SPOT,8,7,TYPE_BAT_DIAG,3
+          !byte LD_SPAWN_SPOT,19,6,TYPE_BAT_DIAG,3
+          !byte LD_SPAWN_SPOT,32,11,TYPE_BAT_DIAG,3
+          !byte LD_SPAWN_SPOT,28,6,TYPE_BAT_DIAG,3
+          !byte LD_ELEMENT_AREA,24,16,5,1,EL_SN_BROWN_ROCK
+          !byte LD_ELEMENT_AREA,0,20,13,1,EL_SN_BROWN_ROCK_SMALL
+          !byte LD_LINE_H,10,17,5,0,0
+          !byte LD_ELEMENT,25,10,EL_SN_STAR
+          !byte LD_ELEMENT,32,135
+          !byte LD_ELEMENT,34,134
+          !byte LD_ELEMENT,33,131
+          !byte LD_ELEMENT,5,136
+          !byte LD_ELEMENT,3,140
+          !byte LD_ELEMENT,6,133
+          !byte LD_ELEMENT,4,130
+          !byte LD_ELEMENT,16,135
+          !byte LD_ELEMENT,22,130
+          !byte LD_LINE_H,10,18,1,92,2
+          !byte LD_ELEMENT,25,13,EL_SN_FENCE_1
+          !byte LD_ELEMENT,36,141
+          !byte LD_ELEMENT,1,145
+          !byte LD_END
+SN_LEVEL_6
+          !byte LD_ELEMENT,25,14,EL_SN_TREE_1
+          !byte LD_LINE_H_ALT,1,20,38,160,13
+          !byte LD_LINE_H_ALT,3,17,8,160,13
+          !byte LD_LINE_H_ALT,3,14,8,160,13
+          !byte LD_LINE_H_ALT,3,11,8,160,13
+          !byte LD_LINE_H_ALT,29,17,8,160,13
+          !byte LD_LINE_H_ALT,29,14,8,160,13
+          !byte LD_LINE_H_ALT,29,11,8,160,13
+          !byte LD_LINE_H_ALT,29,8,8,160,13
+          !byte LD_LINE_H_ALT,3,8,8,160,13
+          !byte LD_LINE_H_ALT,3,5,34,160,13
+          !byte LD_SPAWN_SPOT,6,16,TYPE_ZOMBIE,4
+          !byte LD_SPAWN_SPOT,33,16,TYPE_ZOMBIE,4
+          !byte LD_SPAWN_SPOT,33,10,TYPE_ZOMBIE,4
+          !byte LD_SPAWN_SPOT,6,10,TYPE_ZOMBIE,4
+          !byte LD_ELEMENT,5,3,EL_SN_TOMBSTONE
+          !byte LD_ELEMENT,20,146
+          !byte LD_ELEMENT,31,140
+          !byte LD_ELEMENT,8,134
+          !byte LD_ELEMENT,12,3,EL_SN_FENCE_1
+          !byte LD_ELEMENT_LINE_H,17,3,4,EL_SN_FENCE_1
+          !byte LD_ELEMENT,31,131
+          !byte LD_ELEMENT_LINE_H,24,18,5,EL_SN_FENCE_1
+          !byte LD_ELEMENT,13,15,EL_SN_TREE_1
+          !byte LD_OBJECT,14,19,TYPE_PLAYER_DEAN
+          !byte LD_ELEMENT,8,3,EL_SN_SMALL_TREE
+          !byte LD_ELEMENT,17,146
+          !byte LD_OBJECT,25,19,TYPE_PLAYER_SAM
+          !byte LD_ELEMENT,4,12,EL_SN_CROSS
+          !byte LD_ELEMENT,30,134
+          !byte LD_ELEMENT,4,134
+          !byte LD_ELEMENT,10,146
+          !byte LD_END
+SN_LEVEL_7
+          !byte LD_LINE_H_ALT,1,7,6,160,13
+          !byte LD_LINE_H_ALT,17,13,6,160,13
+          !byte LD_LINE_H_ALT,9,10,6,160,13
+          !byte LD_LINE_H_ALT,19,13,2,196,13
+          !byte LD_LINE_H_ALT,25,10,6,160,13
+          !byte LD_LINE_H_ALT,33,7,6,160,13
+          !byte LD_LINE_H_ALT,9,16,6,160,13
+          !byte LD_LINE_H_ALT,1,19,18,196,13
+          !byte LD_LINE_H_ALT,21,19,18,196,13
+          !byte LD_AREA,19,14,2,6,195,13
+          !byte LD_LINE_H_ALT,25,16,6,160,13
+          !byte LD_AREA,1,20,38,2,195,13
+          !byte LD_OBJECT,36,18,TYPE_PLAYER_SAM
+          !byte LD_SPAWN_SPOT,19,12,TYPE_MUMMY,4
+          !byte LD_SPAWN_SPOT,3,5,TYPE_BAT_UD,4
+          !byte LD_SPAWN_SPOT,36,5,TYPE_BAT_UD,4
+          !byte LD_ELEMENT,11,8,EL_SN_TOMBSTONE
+          !byte LD_ELEMENT,27,142
+          !byte LD_ELEMENT_LINE_H,26,17,4,EL_SN_FENCE_1
+          !byte LD_ELEMENT_LINE_H,10,17,3,EL_SN_FENCE_1
+          !byte LD_ELEMENT,20,11,EL_SN_CROSS
+          !byte LD_ELEMENT,23,145
+          !byte LD_ELEMENT,3,14,EL_SN_TREE_1
+          !byte LD_ELEMENT,26,133
+          !byte LD_ELEMENT,19,4,EL_SN_MOON
+          !byte LD_OBJECT,3,18,TYPE_PLAYER_DEAN
+          !byte LD_ELEMENT,3,5,EL_SN_SMALL_TREE
+          !byte LD_ELEMENT,10,142
+          !byte LD_ELEMENT,7,145
+          !byte LD_SPAWN_SPOT,12,9,TYPE_MUMMY,4
+          !byte LD_SPAWN_SPOT,28,9,TYPE_MUMMY,4
+          !byte LD_ELEMENT,24,5,EL_SN_STAR
+          !byte LD_ELEMENT,15,130
+          !byte LD_ELEMENT,32,141
+          !byte LD_ELEMENT,32,130
+          !byte LD_ELEMENT,7,131
+          !byte LD_ELEMENT,35,139
+          !byte LD_ELEMENT,8,140
+          !byte LD_ELEMENT,6,138
+          !byte LD_END
+SN_LEVEL_8
+          !byte LD_LINE_H_ALT,1,21,10,196,13
+          !byte LD_LINE_H_ALT,29,21,10,196,13
+          !byte LD_LINE_H_ALT,11,19,2,196,13
+          !byte LD_LINE_H_ALT,27,19,2,196,13
+          !byte LD_LINE_H_ALT,13,17,14,196,13
+          !byte LD_LINE_H_ALT,17,9,6,160,13
+          !byte LD_AREA,13,18,14,2,195,13
+          !byte LD_AREA,11,20,18,2,195,13
+          !byte LD_OBJECT,3,20,TYPE_PLAYER_DEAN
+          !byte LD_OBJECT,36,20,TYPE_PLAYER_SAM
+          !byte LD_SPAWN_SPOT,18,8,TYPE_ZOMBIE,4
+          !byte LD_SPAWN_SPOT,21,8,TYPE_ZOMBIE,4
+          !byte LD_SPAWN_SPOT,21,16,TYPE_ZOMBIE,4
+          !byte LD_SPAWN_SPOT,18,16,TYPE_MUMMY,4
+          !byte LD_ELEMENT,18,7,EL_SN_TOMBSTONE
+          !byte LD_ELEMENT,27,145
+          !byte LD_ELEMENT,11,17,EL_SN_CROSS
+          !byte LD_ELEMENT,7,16,EL_SN_TREE_1
+          !byte LD_ELEMENT,4,143
+          !byte LD_ELEMENT,14,139
+          !byte LD_ELEMENT,30,144
+          !byte LD_ELEMENT_LINE_H,2,19,3,EL_SN_FENCE_1
+          !byte LD_ELEMENT,22,11,EL_SN_TREE_1
+          !byte LD_ELEMENT,6,5,EL_SN_MOON
+          !byte LD_ELEMENT,36,12,EL_SN_STAR
+          !byte LD_ELEMENT,19,141
+          !byte LD_ELEMENT,4,143
+          !byte LD_ELEMENT,2,138
+          !byte LD_ELEMENT,18,131
+          !byte LD_ELEMENT,29,138
+          !byte LD_ELEMENT,33,136
+          !byte LD_ELEMENT,29,130
+          !byte LD_ELEMENT,4,132
+          !byte LD_ELEMENT,11,135
+          !byte LD_ELEMENT_LINE_H,14,15,4,EL_SN_FENCE_1
+          !byte LD_ELEMENT,34,19,EL_SN_SMALL_TREE
+          !byte LD_END
+SN_LEVEL_9
+          !byte LD_ELEMENT,2,15,EL_SN_TREE_1
+          !byte LD_ELEMENT_AREA,1,19,4,1,EL_SN_FENCE_1
+          !byte LD_LINE_H_ALT,1,21,38,196,13
+          !byte LD_AREA,13,10,26,11,93,2
+          !byte LD_LINE_H,13,9,26,92,2
+          !byte LD_LINE_H,12,8,27,110,2
+          !byte LD_LINE_H,12,7,27,110,2
+          !byte LD_LINE_H_ALT,7,18,6,160,13
+          !byte LD_LINE_H_ALT,12,15,6,160,13
+          !byte LD_LINE_H_ALT,17,12,6,160,13
+          !byte LD_LINE_H_ALT,22,15,6,160,13
+          !byte LD_LINE_H_ALT,27,18,6,160,13
+          !byte LD_LINE_H,22,17,6,92,2
+          !byte LD_LINE_H,27,20,6,92,2
+          !byte LD_LINE_H,17,14,6,92,2
+          !byte LD_LINE_H,13,17,5,92,2
+          !byte LD_LINE_H_ALT,2,8,6,160,13
+          !byte LD_LINE_H_ALT,32,8,6,160,13
+          !byte LD_LINE_H_ALT,7,10,11,160,13
+          !byte LD_LINE_H_ALT,22,10,11,160,13
+          !byte LD_LINE_H,23,12,10,92,2
+          !byte LD_LINE_H,13,12,4,92,2
+          !byte LD_ELEMENT,34,3,EL_SN_MOON
+          !byte LD_OBJECT,3,20,TYPE_PLAYER_DEAN
+          !byte LD_OBJECT,36,20,TYPE_PLAYER_SAM
+          !byte LD_SPAWN_SPOT,19,20,TYPE_MUMMY,4
+          !byte LD_SPAWN_SPOT,9,9,TYPE_ZOMBIE,3
+          !byte LD_SPAWN_SPOT,27,9,TYPE_ZOMBIE,3
+          !byte LD_SPAWN_SPOT,19,11,TYPE_FRANKENSTEIN,4
+          !byte LD_LINE_H,12,16,6,0,0
+          !byte LD_LINE_H,22,16,6,0,0
+          !byte LD_LINE_H,27,19,6,0,0
+          !byte LD_LINE_H,13,11,5,0,0
+          !byte LD_LINE_H,17,13,6,0,0
+          !byte LD_LINE_H,22,11,11,0,0
+          !byte LD_LINE_H,32,9,6,0,0
+          !byte LD_ELEMENT_AREA,36,14,1,1,EL_SN_SEWER_PIPE_RED
+          !byte LD_ELEMENT_AREA,22,18,1,1,EL_SN_SEWER_PIPE_RED
+          !byte LD_ELEMENT_AREA,15,18,1,1,EL_SN_SEWER_PIPE_RED
+          !byte LD_ELEMENT_AREA,30,14,1,1,EL_SN_SEWER_PIPE_RED
+          !byte LD_LINE_V,13,12,3,30,2
+          !byte LD_LINE_V,13,17,4,30,2
+          !byte LD_LINE_V,13,9,1,30,2
+          !byte LD_LINE_H,33,10,5,92,2
+          !byte LD_ELEMENT,22,1,EL_SN_STAR
+          !byte LD_ELEMENT,31,132
+          !byte LD_ELEMENT,3,141
+          !byte LD_ELEMENT,29,131
+          !byte LD_ELEMENT,2,129
+          !byte LD_ELEMENT,12,132
+          !byte LD_END
+SN_LEVEL_10
+          !byte LD_AREA,6,4,28,17,93,2
+          !byte LD_ELEMENT,18,10,EL_SN_TOMB_DOOR
+          !byte LD_ELEMENT,20,138
+          !byte LD_LINE_H,6,3,28,92,2
+          !byte LD_LINE_H,17,13,6,92,2
+          !byte LD_LINE_H,16,14,8,92,2
+          !byte LD_AREA,7,3,2,17,95,6
+          !byte LD_AREA,31,3,2,17,95,6
+          !byte LD_LINE_H,5,2,30,110,6
+          !byte LD_LINE_H,6,1,28,110,6
+          !byte LD_LINE_H_ALT,1,5,8,160,13
+          !byte LD_LINE_H_ALT,31,5,8,160,13
+          !byte LD_LINE_H_ALT,4,8,8,160,13
+          !byte LD_LINE_H_ALT,28,8,8,160,13
+          !byte LD_LINE_H_ALT,8,11,8,160,13
+          !byte LD_LINE_H_ALT,24,11,8,160,13
+          !byte LD_LINE_H_ALT,5,14,6,160,13
+          !byte LD_LINE_H_ALT,29,14,6,160,13
+          !byte LD_LINE_H_ALT,2,17,6,160,13
+          !byte LD_LINE_H_ALT,32,17,6,160,13
+          !byte LD_LINE_H_ALT,15,15,10,160,13
+          !byte LD_LINE_H_ALT,7,19,8,160,13
+          !byte LD_LINE_H_ALT,25,19,8,160,13
+          !byte LD_LINE_H_ALT,1,21,38,196,13
+          !byte LD_OBJECT,11,18,TYPE_PLAYER_DEAN
+          !byte LD_OBJECT,28,18,TYPE_PLAYER_SAM
+          !byte LD_SPAWN_SPOT,3,20,TYPE_FRANKENSTEIN,4
+          !byte LD_SPAWN_SPOT,36,20,TYPE_FRANKENSTEIN,4
+          !byte LD_SPAWN_SPOT,27,10,TYPE_FRANKENSTEIN,4
+          !byte LD_SPAWN_SPOT,12,10,TYPE_FRANKENSTEIN,4
+          !byte LD_LINE_H_ALT,13,6,14,160,13
+          !byte LD_LINE_H,13,7,14,92,2
+          !byte LD_LINE_H,6,10,1,92,2
+          !byte LD_LINE_H,28,10,3,92,2
+          !byte LD_LINE_H,9,13,7,92,2
+          !byte LD_LINE_H,24,13,7,92,2
+          !byte LD_LINE_H,29,15,5,32,2
+          !byte LD_LINE_H,5,15,6,32,2
+          !byte LD_LINE_H,15,16,10,32,2
+          !byte LD_LINE_H,6,18,2,32,2
+          !byte LD_LINE_H,32,18,2,32,2
+          !byte LD_LINE_H,25,20,8,32,2
+          !byte LD_LINE_H,7,20,8,32,2
+          !byte LD_LINE_H_ALT,13,7,14,0,0
+          !byte LD_LINE_H_ALT,6,6,3,0,0
+          !byte LD_LINE_H_ALT,31,6,3,0,0
+          !byte LD_LINE_H_ALT,6,9,6,0,0
+          !byte LD_LINE_H_ALT,28,9,6,0,0
+          !byte LD_LINE_H_ALT,8,12,8,0,0
+          !byte LD_LINE_H_ALT,24,12,8,0,0
+          !byte LD_ELEMENT,18,145
+          !byte LD_ELEMENT,20,145
+          !byte LD_ELEMENT,18,131
+          !byte LD_ELEMENT,20,131
+          !byte LD_ELEMENT,10,131
+          !byte LD_ELEMENT,28,131
+          !byte LD_LINE_H,15,17,3,92,2
+          !byte LD_LINE_H,22,17,3,92,2
+          !byte LD_LINE_H,33,10,1,92,2
+          !byte LD_LINE_H,9,10,3,92,2
+          !byte LD_LINE_H,6,7,1,92,2
+          !byte LD_LINE_H,33,7,1,92,2
+          !byte LD_LINE_H,6,16,1,92,2
+          !byte LD_LINE_H,6,19,1,92,2
+          !byte LD_LINE_H,13,8,14,92,2
+          !byte LD_LINE_H,29,16,2,92,2
+          !byte LD_LINE_H,33,16,1,92,2
+          !byte LD_LINE_H,33,19,1,92,2
+          !byte LD_END
+SN_LEVEL_11
+          !byte LD_AREA,1,1,38,21,93,6
+          !byte LD_ELEMENT_LINE_H,6,7,2,EL_SN_PLATFORM_GRASS
+          !byte LD_OBJECT,7,18,TYPE_PLAYER_DEAN
+          !byte LD_OBJECT,32,18,TYPE_PLAYER_SAM
+          !byte LD_OBJECT,19,20,TYPE_BOSS
+          !byte LD_ELEMENT_LINE_H,10,10,2,EL_SN_PLATFORM_GRASS
+          !byte LD_ELEMENT_LINE_H,2,10,2,EL_SN_PLATFORM_GRASS
+          !byte LD_ELEMENT_LINE_H,2,19,4,EL_SN_PLATFORM_GRASS
+          !byte LD_ELEMENT_LINE_H,2,16,2,EL_SN_PLATFORM_GRASS
+          !byte LD_ELEMENT_LINE_H,6,13,2,EL_SN_PLATFORM_GRASS
+          !byte LD_ELEMENT_LINE_H,18,13,2,EL_SN_PLATFORM_GRASS
+          !byte LD_ELEMENT_LINE_H,18,7,2,EL_SN_PLATFORM_GRASS
+          !byte LD_ELEMENT_LINE_H,30,7,2,EL_SN_PLATFORM_GRASS
+          !byte LD_ELEMENT_LINE_H,34,10,2,EL_SN_PLATFORM_GRASS
+          !byte LD_ELEMENT_LINE_H,26,10,2,EL_SN_PLATFORM_GRASS
+          !byte LD_ELEMENT_LINE_H,30,13,2,EL_SN_PLATFORM_GRASS
+          !byte LD_ELEMENT_LINE_H,34,16,2,EL_SN_PLATFORM_GRASS
+          !byte LD_ELEMENT_LINE_H,30,19,4,EL_SN_PLATFORM_GRASS
+          !byte LD_ELEMENT_LINE_H,6,14,2,EL_SN_PLATFORM_GRASS
+          !byte LD_ELEMENT_LINE_H,18,14,2,EL_SN_PLATFORM_GRASS
+          !byte LD_ELEMENT_LINE_H,10,11,2,EL_SN_PLATFORM_GRASS
+          !byte LD_ELEMENT_LINE_H,2,11,2,EL_SN_PLATFORM_GRASS
+          !byte LD_ELEMENT_LINE_H,6,8,2,EL_SN_PLATFORM_GRASS
+          !byte LD_ELEMENT_LINE_H,2,17,2,EL_SN_PLATFORM_GRASS
+          !byte LD_ELEMENT_LINE_H,18,8,2,EL_SN_PLATFORM_GRASS
+          !byte LD_ELEMENT_LINE_H,26,11,2,EL_SN_PLATFORM_GRASS
+          !byte LD_ELEMENT_LINE_H,30,8,2,EL_SN_PLATFORM_GRASS
+          !byte LD_ELEMENT_LINE_H,30,14,2,EL_SN_PLATFORM_GRASS
+          !byte LD_ELEMENT_LINE_H,34,11,2,EL_SN_PLATFORM_GRASS
+          !byte LD_ELEMENT_LINE_H,34,17,2,EL_SN_PLATFORM_GRASS
+          !byte LD_ELEMENT_LINE_H,2,20,4,EL_SN_PLATFORM_GRASS
+          !byte LD_ELEMENT_LINE_H,30,20,4,EL_SN_PLATFORM_GRASS
+          !byte LD_LINE_H,2,20,8,0,0
+          !byte LD_LINE_H,30,20,8,0,0
+          !byte LD_LINE_H,2,17,4,0,0
+          !byte LD_LINE_H,10,11,4,0,0
+          !byte LD_LINE_H,2,11,4,0,0
+          !byte LD_LINE_H,6,8,4,0,0
+          !byte LD_LINE_H,6,14,4,0,0
+          !byte LD_LINE_H,18,14,4,0,0
+          !byte LD_LINE_H,18,8,4,0,0
+          !byte LD_LINE_H,30,14,4,0,0
+          !byte LD_LINE_H,30,8,4,0,0
+          !byte LD_LINE_H,34,11,4,0,0
+          !byte LD_LINE_H,26,11,4,0,0
+          !byte LD_LINE_H,34,17,4,0,0
+          !byte LD_LINE_H,1,2,38,110,6
+          !byte LD_LINE_H,1,5,38,110,6
+          !byte LD_END
+SN_LEVEL_12
+          !byte LD_AREA,1,1,38,21,93,6
+          !byte LD_ELEMENT,3,2,EL_SN_HOUSE_DOOR
+          !byte LD_ELEMENT,3,147
+          !byte LD_ELEMENT,5,147
+          !byte LD_ELEMENT,35,139
+          !byte LD_ELEMENT_LINE_H,1,5,5,EL_SN_WOODEN_FLOOR_RS
+          !byte LD_ELEMENT_LINE_H,17,14,3,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,13,11,2,EL_SN_WOODEN_FLOOR
+          !byte LD_OBJECT,3,21,TYPE_PLAYER_DEAN
+          !byte LD_OBJECT,36,21,TYPE_PLAYER_SAM
+          !byte LD_SPAWN_SPOT,3,4,TYPE_SPIDER,3
+          !byte LD_SPAWN_SPOT,35,13,TYPE_SPIDER,3
+          !byte LD_ELEMENT_LINE_H,29,14,5,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,1,14,5,EL_SN_WOODEN_FLOOR
+          !byte LD_SPAWN_SPOT,3,13,TYPE_SPIDER,3
+          !byte LD_ELEMENT,3,11,EL_SN_HOUSE_DOOR
+          !byte LD_ELEMENT_LINE_H,29,5,5,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT,35,2,EL_SN_HOUSE_DOOR
+          !byte LD_SPAWN_SPOT,35,4,TYPE_SPIDER,3
+          !byte LD_ELEMENT_LINE_V,19,14,2,EL_SN_BRICK_2X2
+          !byte LD_ELEMENT_LINE_H,10,8,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,23,11,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,26,8,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,13,16,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,10,19,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,23,16,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,26,19,2,EL_SN_WOODEN_FLOOR
+          !byte LD_LINE_H,19,19,2,92,6
+          !byte LD_ELEMENT_LINE_V,19,15,2,EL_SN_BRICK2_2X1
+          !byte LD_LINE_H,19,18,2,0,0
+          !byte LD_ELEMENT_AREA,14,2,2,1,EL_SN_TOMB_DOOR
+          !byte LD_ELEMENT_AREA,22,2,2,1,EL_SN_TOMB_DOOR
+          !byte LD_LINE_H,1,1,38,110,6
+          !byte LD_END
+SN_LEVEL_13
+          !byte LD_AREA,1,1,38,21,93,6
+          !byte LD_ELEMENT_LINE_H,12,19,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_V,10,16,3,EL_SN_BRICK_2X2
+          !byte LD_ELEMENT_LINE_V,28,16,3,EL_SN_BRICK_2X2
+          !byte LD_ELEMENT_LINE_H,24,19,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,16,16,4,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,32,19,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,34,16,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,4,19,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,1,16,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,4,13,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,32,13,2,EL_SN_WOODEN_FLOOR
+          !byte LD_OBJECT,14,21,TYPE_PLAYER_DEAN
+          !byte LD_OBJECT,25,21,TYPE_PLAYER_SAM
+          !byte LD_SPAWN_SPOT,5,21,TYPE_SPIDER,3
+          !byte LD_SPAWN_SPOT,35,21,TYPE_SPIDER,3
+          !byte LD_SPAWN_SPOT,19,6,TYPE_SPIDER,6
+          !byte LD_ELEMENT_LINE_H,6,10,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,8,7,12,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,30,10,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT,10,4,EL_SN_HOUSE_DOOR
+          !byte LD_ELEMENT,28,132
+          !byte LD_ELEMENT_LINE_V,10,17,4,EL_SN_BRICK2_2X1
+          !byte LD_ELEMENT_LINE_V,28,17,4,EL_SN_BRICK2_2X1
+          !byte LD_ELEMENT_AREA,18,12,2,1,EL_SN_TOMB_DOOR
+          !byte LD_ELEMENT_AREA,12,12,2,1,EL_SN_TOMB_DOOR
+          !byte LD_ELEMENT_AREA,24,12,2,1,EL_SN_TOMB_DOOR
+          !byte LD_END
+SN_LEVEL_14
+          !byte LD_AREA,1,1,38,21,93,6
+          !byte LD_ELEMENT_LINE_V,19,1,5,EL_SN_BRICK_2X2
+          !byte LD_ELEMENT_LINE_H,4,19,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,32,19,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,26,16,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,10,16,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,16,19,4,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT,8,142
+          !byte LD_ELEMENT,6,140
+          !byte LD_ELEMENT,4,138
+          !byte LD_ELEMENT_LINE_H,1,8,4,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT,16,5,EL_SN_HOUSE_DOOR
+          !byte LD_ELEMENT,11,147
+          !byte LD_ELEMENT_LINE_H,13,8,3,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,21,8,3,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,31,8,4,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT,34,138
+          !byte LD_ELEMENT,32,140
+          !byte LD_ELEMENT,30,142
+          !byte LD_ELEMENT,22,5,EL_SN_HOUSE_DOOR
+          !byte LD_ELEMENT,27,147
+          !byte LD_OBJECT,5,18,TYPE_PLAYER_DEAN
+          !byte LD_OBJECT,34,18,TYPE_PLAYER_SAM
+          !byte LD_SPAWN_SPOT,16,7,TYPE_SPIDER,3
+          !byte LD_SPAWN_SPOT,23,7,TYPE_SPIDER,3
+          !byte LD_SPAWN_SPOT,27,21,TYPE_SPIDER,3
+          !byte LD_SPAWN_SPOT,12,21,TYPE_SPIDER,3
+          !byte LD_ELEMENT_LINE_V,19,18,2,EL_SN_BRICK_2X2
+          !byte LD_LINE_H,19,11,2,92,6
+          !byte LD_ELEMENT_LINE_V,19,19,2,EL_SN_BRICK2_2X1
+          !byte LD_ELEMENT_LINE_V,19,8,2,EL_SN_BRICK2_2X1
+          !byte LD_ELEMENT_LINE_V,19,2,6,EL_SN_BRICK2_2X1
+          !byte LD_ELEMENT_AREA,18,14,2,1,EL_SN_TOMB_DOOR
+          !byte LD_ELEMENT_AREA,3,4,2,1,EL_SN_TOMB_DOOR
+          !byte LD_ELEMENT_AREA,33,4,2,1,EL_SN_TOMB_DOOR
+          !byte LD_END
+SN_LEVEL_15
+          !byte LD_AREA,1,16,6,6,92,6
+          !byte LD_AREA,33,16,6,6,92,6
+          !byte LD_ELEMENT,3,19,EL_SN_HOUSE_DOOR
+          !byte LD_ELEMENT,35,147
+          !byte LD_ELEMENT,9,17,EL_SN_TREE_1
+          !byte LD_ELEMENT_LINE_H,8,19,2,EL_SN_WOODEN_FLOOR_NS
+          !byte LD_ELEMENT_LINE_H,8,16,2,EL_SN_WOODEN_FLOOR_NS
+          !byte LD_ELEMENT_LINE_H,8,13,2,EL_SN_WOODEN_FLOOR_NS
+          !byte LD_ELEMENT_LINE_H,2,10,6,EL_SN_WOODEN_FLOOR_NS
+          !byte LD_ELEMENT_LINE_H,28,19,2,EL_SN_WOODEN_FLOOR_NS
+          !byte LD_ELEMENT_LINE_H,28,16,2,EL_SN_WOODEN_FLOOR_NS
+          !byte LD_ELEMENT,17,15,EL_SN_TREE_1
+          !byte LD_ELEMENT_LINE_H,28,13,2,EL_SN_WOODEN_FLOOR_NS
+          !byte LD_ELEMENT_LINE_H,26,10,6,EL_SN_WOODEN_FLOOR_NS
+          !byte LD_ELEMENT_LINE_H,16,16,4,EL_SN_WOODEN_FLOOR_NS
+          !byte LD_ELEMENT_LINE_H,16,7,4,EL_SN_WOODEN_FLOOR_NS
+          !byte LD_ELEMENT_LINE_H,32,7,2,EL_SN_WOODEN_FLOOR_NS
+          !byte LD_ELEMENT_LINE_H,4,7,2,EL_SN_WOODEN_FLOOR_NS
+          !byte LD_OBJECT,3,21,TYPE_PLAYER_DEAN
+          !byte LD_OBJECT,36,21,TYPE_PLAYER_SAM
+          !byte LD_SPAWN_SPOT,5,6,TYPE_SPIDER,3
+          !byte LD_SPAWN_SPOT,20,12,TYPE_BAT_DIAG,4
+          !byte LD_SPAWN_SPOT,34,6,TYPE_SPIDER,3
+          !byte LD_SPAWN_SPOT,20,19,TYPE_SPIDER,3
+          !byte LD_ELEMENT_LINE_H,14,20,4,EL_SN_ROCK_SMALL
+          !byte LD_LINE_H,1,15,7,93,2
+          !byte LD_LINE_H,32,15,7,93,2
+          !byte LD_LINE_V,7,16,6,93,2
+          !byte LD_LINE_V,32,16,6,93,2
+          !byte LD_ELEMENT,27,8,EL_SN_SMALL_TREE
+          !byte LD_ELEMENT,23,146
+          !byte LD_END
+SN_LEVEL_16
+          !byte LD_AREA,1,1,38,21,93,6
+          !byte LD_ELEMENT_LINE_H,2,20,4,EL_SN_WOODEN_FLOOR2
+          !byte LD_ELEMENT_LINE_H,30,20,4,EL_SN_WOODEN_FLOOR2
+          !byte LD_ELEMENT_LINE_H,22,18,3,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,12,18,3,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,17,16,3,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,8,16,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,28,16,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,4,14,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,32,14,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,28,12,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,8,12,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,12,10,3,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,22,10,3,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,17,12,3,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,2,8,4,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,30,8,4,EL_SN_WOODEN_FLOOR
+          !byte LD_OBJECT,5,13,TYPE_PLAYER_DEAN
+          !byte LD_OBJECT,34,13,TYPE_PLAYER_SAM
+          !byte LD_SPAWN_SPOT,4,7,TYPE_SPIDER,2
+          !byte LD_SPAWN_SPOT,34,7,TYPE_SPIDER,2
+          !byte LD_SPAWN_SPOT,14,9,TYPE_ZOMBIE,2
+          !byte LD_SPAWN_SPOT,25,9,TYPE_ZOMBIE,2
+          !byte LD_SPAWN_SPOT,14,17,TYPE_ZOMBIE,2
+          !byte LD_SPAWN_SPOT,25,17,TYPE_ZOMBIE,2
+          !byte LD_ELEMENT_LINE_V,19,16,3,EL_SN_BRICK_2X2
+          !byte LD_ELEMENT_LINE_V,19,17,4,EL_SN_BRICK2_2X1
+          !byte LD_END
+SN_LEVEL_17
+          !byte LD_AREA,1,1,38,21,93,6
+          !byte LD_ELEMENT_LINE_H,16,14,4,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,14,15,6,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,12,16,8,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,8,12,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,4,9,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,4,15,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,8,18,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,28,18,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,32,15,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,28,12,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,32,9,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,36,12,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,0,12,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,0,18,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,36,18,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,1,21,19,EL_SN_WOODEN_FLOOR_NS
+          !byte LD_OBJECT,17,20,TYPE_PLAYER_DEAN
+          !byte LD_OBJECT,22,20,TYPE_PLAYER_SAM
+          !byte LD_SPAWN_SPOT,19,11,TYPE_BAT_VANISH,4
+          !byte LD_SPAWN_SPOT,5,13,TYPE_BAT_DIAG,3
+          !byte LD_SPAWN_SPOT,34,13,TYPE_BAT_DIAG,3
+          !byte LD_SPAWN_SPOT,37,17,TYPE_SPIDER,2
+          !byte LD_SPAWN_SPOT,2,17,TYPE_SPIDER,2
+          !byte LD_ELEMENT,19,18,EL_SN_WOODEN_FLOOR
+          !byte LD_END
+SN_LEVEL_18
+          !byte LD_AREA,1,1,38,21,93,6
+          !byte LD_ELEMENT_LINE_H,1,16,7,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_V,9,4,5,EL_SN_BRICK_2X2
+          !byte LD_ELEMENT_LINE_H,25,16,7,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_V,29,4,5,EL_SN_BRICK_2X2
+          !byte LD_ELEMENT_LINE_H,11,7,9,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,11,10,9,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,11,13,9,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,1,19,6,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,27,19,6,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,11,4,9,EL_SN_WOODEN_FLOOR
+          !byte LD_OBJECT,16,21,TYPE_PLAYER_DEAN
+          !byte LD_OBJECT,23,21,TYPE_PLAYER_SAM
+          !byte LD_SPAWN_SPOT,36,21,TYPE_SPIDER,4
+          !byte LD_SPAWN_SPOT,3,21,TYPE_SPIDER,4
+          !byte LD_OBJECT,12,12,TYPE_SPIDER
+          !byte LD_OBJECT,27,9,TYPE_SPIDER
+          !byte LD_OBJECT,12,6,TYPE_SPIDER
+          !byte LD_SPAWN_SPOT,12,6,TYPE_SPIDER,4
+          !byte LD_SPAWN_SPOT,27,9,TYPE_SPIDER,4
+          !byte LD_SPAWN_SPOT,12,12,TYPE_SPIDER,4
+          !byte LD_LINE_H,9,14,22,92,0
+          !byte LD_ELEMENT_LINE_V,9,5,8,EL_SN_BRICK2_2X1
+          !byte LD_ELEMENT_LINE_V,29,5,8,EL_SN_BRICK2_2X1
+          !byte LD_END
+SN_LEVEL_19
+          !byte LD_AREA,1,1,38,21,93,6
+          !byte LD_ELEMENT_LINE_V,6,7,5,EL_SN_BRICK_2X2
+          !byte LD_ELEMENT_LINE_V,10,7,5,EL_SN_BRICK_2X2
+          !byte LD_ELEMENT_LINE_V,32,7,5,EL_SN_BRICK_2X2
+          !byte LD_ELEMENT_LINE_V,28,7,5,EL_SN_BRICK_2X2
+          !byte LD_ELEMENT,8,16,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT,8,141
+          !byte LD_ELEMENT,8,138
+          !byte LD_ELEMENT,8,135
+          !byte LD_ELEMENT,30,135
+          !byte LD_ELEMENT,30,138
+          !byte LD_ELEMENT,30,141
+          !byte LD_ELEMENT,30,144
+          !byte LD_ELEMENT_LINE_H,5,19,4,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,27,19,4,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,12,7,8,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT,1,135
+          !byte LD_ELEMENT,37,135
+          !byte LD_ELEMENT_LINE_H,12,16,8,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,12,13,8,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,12,10,8,EL_SN_WOODEN_FLOOR
+          !byte LD_OBJECT,3,21,TYPE_PLAYER_DEAN
+          !byte LD_OBJECT,36,21,TYPE_PLAYER_SAM
+          !byte LD_SPAWN_SPOT,14,15,TYPE_SPIDER,4
+          !byte LD_SPAWN_SPOT,25,12,TYPE_SPIDER,4
+          !byte LD_SPAWN_SPOT,14,12,TYPE_SPIDER,4
+          !byte LD_SPAWN_SPOT,14,9,TYPE_SPIDER,4
+          !byte LD_SPAWN_SPOT,25,9,TYPE_SPIDER,4
+          !byte LD_SPAWN_SPOT,25,15,TYPE_SPIDER,4
+          !byte LD_LINE_H,6,17,28,92,0
+          !byte LD_ELEMENT_LINE_V,6,8,8,EL_SN_BRICK2_2X1
+          !byte LD_ELEMENT_LINE_V,10,8,8,EL_SN_BRICK2_2X1
+          !byte LD_ELEMENT_LINE_V,28,8,8,EL_SN_BRICK2_2X1
+          !byte LD_ELEMENT_LINE_V,32,8,8,EL_SN_BRICK2_2X1
+          !byte LD_END
+SN_LEVEL_20
+          !byte LD_AREA,1,1,38,21,93,6
+          !byte LD_ELEMENT,4,14,EL_SN_BRICK_2X2
+          !byte LD_ELEMENT,9,146
+          !byte LD_ELEMENT,4,134
+          !byte LD_ELEMENT,14,134
+          !byte LD_ELEMENT,14,142
+          !byte LD_ELEMENT,19,138
+          !byte LD_ELEMENT,24,142
+          !byte LD_ELEMENT,24,134
+          !byte LD_ELEMENT,34,134
+          !byte LD_ELEMENT,34,142
+          !byte LD_ELEMENT,29,146
+          !byte LD_OBJECT,15,21,TYPE_PLAYER_DEAN
+          !byte LD_OBJECT,24,21,TYPE_PLAYER_SAM
+          !byte LD_SPAWN_SPOT,5,13,TYPE_SPIDER,4
+          !byte LD_SPAWN_SPOT,34,13,TYPE_SPIDER,4
+          !byte LD_SPAWN_SPOT,20,14,TYPE_SPIDER,4
+          !byte LD_SPAWN_SPOT,15,11,TYPE_BAT_DIAG,4
+          !byte LD_SPAWN_SPOT,24,11,TYPE_BAT_DIAG,4
+          !byte LD_ELEMENT_LINE_H,8,15,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,18,15,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,28,15,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,33,11,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,23,11,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,13,11,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,3,11,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,8,7,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,18,7,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,28,7,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,3,19,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,13,19,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,23,19,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,33,19,2,EL_SN_WOODEN_FLOOR
+          !byte LD_LINE_H,4,8,2,92,6
+          !byte LD_LINE_H,4,16,2,92,6
+          !byte LD_LINE_H,14,8,2,92,6
+          !byte LD_LINE_H,14,16,2,92,6
+          !byte LD_LINE_H,9,20,2,92,6
+          !byte LD_LINE_H,19,12,2,92,6
+          !byte LD_LINE_H,24,16,2,92,6
+          !byte LD_LINE_H,29,20,2,92,6
+          !byte LD_LINE_H,34,8,2,92,6
+          !byte LD_LINE_H,24,8,2,92,6
+          !byte LD_LINE_H,34,16,2,92,6
+          !byte LD_ELEMENT_LINE_H,8,12,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,28,12,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,18,18,2,EL_SN_WOODEN_FLOOR
+          !byte LD_END
+SN_LEVEL_21
+          !byte LD_AREA,1,6,38,16,93,2
+          !byte LD_AREA,1,0,38,6,93,6
+          !byte LD_ELEMENT_LINE_H,8,5,12,EL_SN_WOODEN_FLOOR_RS
+          !byte LD_ELEMENT_LINE_H,36,5,2,EL_SN_WOODEN_FLOOR_RS
+          !byte LD_ELEMENT_LINE_H,30,8,2,EL_SN_WOODEN_FLOOR_RS
+          !byte LD_ELEMENT_LINE_H,28,11,2,EL_SN_WOODEN_FLOOR_RS
+          !byte LD_ELEMENT_LINE_H,26,14,2,EL_SN_WOODEN_FLOOR_RS
+          !byte LD_ELEMENT_LINE_H,28,17,2,EL_SN_WOODEN_FLOOR_RS
+          !byte LD_ELEMENT_LINE_H,6,20,2,EL_SN_WOODEN_FLOOR_RS
+          !byte LD_ELEMENT_LINE_H,8,11,2,EL_SN_WOODEN_FLOOR_RS
+          !byte LD_ELEMENT_LINE_H,0,5,2,EL_SN_WOODEN_FLOOR_RS
+          !byte LD_ELEMENT_LINE_H,6,8,2,EL_SN_WOODEN_FLOOR_RS
+          !byte LD_ELEMENT_LINE_H,10,14,2,EL_SN_WOODEN_FLOOR_RS
+          !byte LD_ELEMENT_LINE_H,8,17,2,EL_SN_WOODEN_FLOOR_RS
+          !byte LD_ELEMENT_LINE_H,30,20,2,EL_SN_WOODEN_FLOOR_RS
+          !byte LD_ELEMENT_AREA,18,12,2,2,EL_SN_BRICK_2X2
+          !byte LD_OBJECT,15,4,TYPE_PLAYER_DEAN
+          !byte LD_OBJECT,24,4,TYPE_PLAYER_SAM
+          !byte LD_SPAWN_SPOT,16,21,TYPE_SPIDER,5
+          !byte LD_SPAWN_SPOT,23,21,TYPE_SPIDER,5
+          !byte LD_ELEMENT_LINE_H,18,20,2,EL_SN_BRICK_2X2
+          !byte LD_ELEMENT_LINE_H,18,6,2,EL_SN_BRICK_2X2
+          !byte LD_ELEMENT_LINE_H,1,17,2,EL_SN_WOODEN_FLOOR_RS
+          !byte LD_ELEMENT_LINE_H,35,17,2,EL_SN_WOODEN_FLOOR_RS
+          !byte LD_ELEMENT_LINE_H,32,14,2,EL_SN_WOODEN_FLOOR_RS
+          !byte LD_ELEMENT_LINE_H,4,14,2,EL_SN_WOODEN_FLOOR_RS
+          !byte LD_LINE_H,18,8,4,92,2
+          !byte LD_LINE_H,18,16,4,92,2
+          !byte LD_ELEMENT_LINE_V,18,13,2,EL_SN_BRICK2_2X1
+          !byte LD_ELEMENT_LINE_V,20,13,2,EL_SN_BRICK2_2X1
+          !byte LD_END
+SN_LEVEL_22
+          !byte LD_AREA,1,1,38,21,93,6
+          !byte LD_ELEMENT_LINE_H,3,19,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,7,16,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,33,19,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,29,16,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,11,19,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,25,19,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,11,13,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,3,13,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,25,13,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,33,13,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,29,10,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,7,10,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,11,7,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,3,7,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,25,7,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,33,7,2,EL_SN_WOODEN_FLOOR
+          !byte LD_OBJECT,8,15,TYPE_PLAYER_DEAN
+          !byte LD_OBJECT,31,15,TYPE_PLAYER_SAM
+          !byte LD_OBJECT,19,11,TYPE_BOSS2
+          !byte LD_END
+SN_LEVEL_23
+          !byte LD_LEVEL_CONFIG,1
+          !byte LD_AREA,1,1,38,21,93,6
+          !byte LD_ELEMENT_LINE_V,38,0,7,EL_SN_STONE
+          !byte LD_ELEMENT_LINE_V,0,0,7,EL_SN_STONE_RIGHT_HALF
+          !byte LD_ELEMENT_LINE_H,0,0,10,EL_SN_STONE
+          !byte LD_ELEMENT_LINE_H,0,21,10,EL_SN_STONE_UPPER_HALF
+          !byte LD_ELEMENT_LINE_H,6,6,2,EL_SN_STONE
+          !byte LD_ELEMENT_LINE_H,26,15,2,EL_SN_STONE
+          !byte LD_ELEMENT,6,140
+          !byte LD_ELEMENT,2,146
+          !byte LD_ELEMENT,30,137
+          !byte LD_ELEMENT_LINE_H,2,15,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,2,12,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,2,9,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,34,9,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,34,12,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,34,15,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,34,18,2,EL_SN_WOODEN_FLOOR
+          !byte LD_OBJECT,8,20,TYPE_PLAYER_DEAN
+          !byte LD_OBJECT,24,20,TYPE_PLAYER_SAM
+          !byte LD_SPAWN_SPOT,32,8,TYPE_JUMPING_TOAD,3
+          !byte LD_SPAWN_SPOT,28,14,TYPE_JUMPING_TOAD,3
+          !byte LD_SPAWN_SPOT,12,5,TYPE_JUMPING_TOAD,3
+          !byte LD_SPAWN_SPOT,8,11,TYPE_JUMPING_TOAD,3
+          !byte LD_ELEMENT_LINE_H,2,6,2,EL_SN_WOODEN_FLOOR
+          !byte LD_LINE_H,2,3,36,92,6
+          !byte LD_LINE_H,6,9,8,92,6
+          !byte LD_LINE_H,26,18,8,92,6
+          !byte LD_LINE_H,6,15,4,92,6
+          !byte LD_LINE_H,30,12,4,92,6
+          !byte LD_ELEMENT,15,18,EL_SN_SEWER_PIPE
+          !byte LD_END
+SN_LEVEL_24
+          !byte LD_AREA,1,1,38,21,93,2
+          !byte LD_ELEMENT_LINE_V,38,0,7,EL_SN_STONE
+          !byte LD_ELEMENT_LINE_V,22,13,2,EL_SN_STONE
+          !byte LD_ELEMENT,14,135
+          !byte LD_ELEMENT_LINE_V,14,13,2,EL_SN_STONE
+          !byte LD_ELEMENT_LINE_H,26,19,2,EL_SN_WOODEN_FLOOR3
+          !byte LD_ELEMENT_LINE_H,30,16,2,EL_SN_WOODEN_FLOOR3
+          !byte LD_ELEMENT_LINE_H,26,13,2,EL_SN_WOODEN_FLOOR3
+          !byte LD_ELEMENT_LINE_H,34,7,2,EL_SN_WOODEN_FLOOR3
+          !byte LD_ELEMENT_LINE_H,26,7,2,EL_SN_WOODEN_FLOOR3
+          !byte LD_ELEMENT_LINE_H,10,7,2,EL_SN_WOODEN_FLOOR3
+          !byte LD_ELEMENT_LINE_H,6,10,2,EL_SN_WOODEN_FLOOR3
+          !byte LD_ELEMENT_LINE_H,10,13,2,EL_SN_WOODEN_FLOOR3
+          !byte LD_ELEMENT_LINE_H,6,16,2,EL_SN_WOODEN_FLOOR3
+          !byte LD_ELEMENT_LINE_H,10,19,2,EL_SN_WOODEN_FLOOR3
+          !byte LD_OBJECT,7,21,TYPE_PLAYER_DEAN
+          !byte LD_OBJECT,32,21,TYPE_PLAYER_SAM
+          !byte LD_SPAWN_SPOT,11,18,TYPE_JUMPING_TOAD,3
+          !byte LD_ELEMENT_LINE_H,2,7,2,EL_SN_WOODEN_FLOOR3
+          !byte LD_ELEMENT_LINE_H,2,13,2,EL_SN_WOODEN_FLOOR3
+          !byte LD_ELEMENT_LINE_H,2,19,2,EL_SN_WOODEN_FLOOR3
+          !byte LD_ELEMENT_LINE_H,34,19,2,EL_SN_WOODEN_FLOOR3
+          !byte LD_ELEMENT_LINE_H,34,13,2,EL_SN_WOODEN_FLOOR3
+          !byte LD_ELEMENT_LINE_H,30,10,2,EL_SN_WOODEN_FLOOR3
+          !byte LD_SPAWN_SPOT,4,18,TYPE_JUMPING_TOAD,3
+          !byte LD_SPAWN_SPOT,4,6,TYPE_JUMPING_TOAD,3
+          !byte LD_SPAWN_SPOT,11,6,TYPE_JUMPING_TOAD,3
+          !byte LD_SPAWN_SPOT,28,6,TYPE_JUMPING_TOAD,3
+          !byte LD_SPAWN_SPOT,35,6,TYPE_JUMPING_TOAD,3
+          !byte LD_SPAWN_SPOT,35,18,TYPE_JUMPING_TOAD,3
+          !byte LD_SPAWN_SPOT,28,18,TYPE_JUMPING_TOAD,3
+          !byte LD_ELEMENT,22,7,EL_SN_STONE
+          !byte LD_LINE_H,14,10,4,92,2
+          !byte LD_LINE_H,22,10,4,92,2
+          !byte LD_LINE_H,14,19,4,92,2
+          !byte LD_LINE_H,22,19,4,92,2
+          !byte LD_ELEMENT,19,5,EL_SN_SEWER_PIPE_RED
+          !byte LD_ELEMENT,19,141
+          !byte LD_ELEMENT,19,148
+          !byte LD_ELEMENT,7,133
+          !byte LD_ELEMENT,31,133
+          !byte LD_ELEMENT,7,141
+          !byte LD_ELEMENT,31,141
+          !byte LD_ELEMENT,7,148
+          !byte LD_ELEMENT,31,148
+          !byte LD_END
+SN_LEVEL_25
+          !byte LD_LEVEL_CONFIG,1
+          !byte LD_AREA,5,2,30,18,93,6
+          !byte LD_ELEMENT,8,19,EL_SN_STONE
+          !byte LD_ELEMENT,4,145
+          !byte LD_ELEMENT,2,142
+          !byte LD_ELEMENT,34,142
+          !byte LD_ELEMENT,32,145
+          !byte LD_ELEMENT,28,147
+          !byte LD_ELEMENT,28,128
+          !byte LD_ELEMENT,8,128
+          !byte LD_ELEMENT,4,130
+          !byte LD_ELEMENT,2,133
+          !byte LD_ELEMENT_LINE_V,1,8,2,EL_SN_STONE
+          !byte LD_ELEMENT,32,130
+          !byte LD_ELEMENT,34,133
+          !byte LD_ELEMENT_LINE_V,35,8,2,EL_SN_STONE
+          !byte LD_ELEMENT_LINE_H,12,14,8,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,12,8,8,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,18,17,2,EL_SN_WOODEN_FLOOR
+          !byte LD_AREA,12,20,16,1,93,6
+          !byte LD_OBJECT,13,13,TYPE_PLAYER_DEAN
+          !byte LD_OBJECT,26,13,TYPE_PLAYER_SAM
+          !byte LD_SPAWN_SPOT,14,20,TYPE_JUMPING_TOAD,5
+          !byte LD_SPAWN_SPOT,25,20,TYPE_JUMPING_TOAD,5
+          !byte LD_ELEMENT_LINE_H,12,0,4,EL_SN_STONE_LOWER_HALF
+          !byte LD_ELEMENT_LINE_H,12,21,4,EL_SN_STONE_UPPER_HALF
+          !byte LD_ELEMENT,8,12,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT,30,140
+          !byte LD_LINE_H,8,4,4,92,6
+          !byte LD_LINE_H,28,4,4,92,6
+          !byte LD_LINE_H,12,2,16,92,6
+          !byte LD_LINE_H,6,6,2,92,6
+          !byte LD_LINE_H,32,6,2,92,6
+          !byte LD_LINE_H,5,9,1,92,6
+          !byte LD_LINE_H,34,9,1,92,6
+          !byte LD_LINE_H,12,20,16,111,3
+          !byte LD_ELEMENT,16,5,EL_SN_SEWER_PIPE
+          !byte LD_ELEMENT,22,133
+          !byte LD_LINE_H,6,5,2,0,0
+          !byte LD_LINE_H,5,8,1,0,0
+          !byte LD_LINE_H,8,3,4,0,0
+          !byte LD_LINE_H,28,3,4,0,0
+          !byte LD_LINE_H,12,1,16,0,0
+          !byte LD_LINE_H,32,5,2,0,0
+          !byte LD_LINE_H,34,8,1,0,0
+          !byte LD_ELEMENT_LINE_H,18,11,2,EL_SN_WOODEN_FLOOR
+          !byte LD_END
+SN_LEVEL_26
+          !byte LD_LEVEL_CONFIG,1
+          !byte LD_AREA,2,4,36,14,93,6
+          !byte LD_ELEMENT_LINE_H,2,18,4,EL_SN_STONE
+          !byte LD_ELEMENT_LINE_H,22,18,4,EL_SN_STONE
+          !byte LD_ELEMENT_LINE_H,5,12,5,EL_SN_WOODEN_FLOOR
+          !byte LD_LINE_H,2,17,36,111,3
+          !byte LD_ELEMENT_LINE_H,25,12,5,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_V,38,3,6,EL_SN_STONE_LEFT_HALF
+          !byte LD_ELEMENT_LINE_H,0,0,10,EL_SN_STONE
+          !byte LD_ELEMENT_LINE_V,0,3,6,EL_SN_STONE_RIGHT_HALF
+          !byte LD_OBJECT,7,11,TYPE_PLAYER_DEAN
+          !byte LD_OBJECT,32,11,TYPE_PLAYER_SAM
+          !byte LD_SPAWN_SPOT,7,17,TYPE_JUMPING_TOAD,5
+          !byte LD_SPAWN_SPOT,14,17,TYPE_JUMPING_TOAD,5
+          !byte LD_SPAWN_SPOT,25,17,TYPE_JUMPING_TOAD,5
+          !byte LD_SPAWN_SPOT,32,17,TYPE_JUMPING_TOAD,5
+          !byte LD_ELEMENT_LINE_H,18,14,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT,10,8,EL_SN_SEWER_PIPE
+          !byte LD_ELEMENT,28,136
+          !byte LD_ELEMENT,18,16,EL_SN_STONE
+          !byte LD_LINE_H,2,4,36,92,6
+          !byte LD_ELEMENT_LINE_H,14,9,6,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,3,5,2,EL_SN_SEWER_PIPE
+          !byte LD_ELEMENT_LINE_H,34,5,2,EL_SN_SEWER_PIPE
+          !byte LD_ELEMENT_LINE_H,13,5,2,EL_SN_SEWER_PIPE
+          !byte LD_ELEMENT_LINE_H,23,5,2,EL_SN_SEWER_PIPE
+          !byte LD_END
+SN_LEVEL_27
+          !byte LD_LEVEL_CONFIG,1
+          !byte LD_AREA,2,4,36,14,93,2
+          !byte LD_ELEMENT_LINE_H,0,0,10,EL_SN_STONE
+          !byte LD_ELEMENT_LINE_V,0,3,5,EL_SN_STONE_RIGHT_HALF
+          !byte LD_ELEMENT_LINE_H,4,6,3,EL_SN_STONE
+          !byte LD_ELEMENT_LINE_H,24,6,3,EL_SN_STONE
+          !byte LD_ELEMENT_LINE_V,38,3,5,EL_SN_STONE_LEFT_HALF
+          !byte LD_ELEMENT_LINE_H,0,12,3,EL_SN_STONE
+          !byte LD_ELEMENT_LINE_H,18,12,2,EL_SN_STONE
+          !byte LD_ELEMENT_LINE_H,32,12,2,EL_SN_STONE
+          !byte LD_ELEMENT_LINE_H,0,18,10,EL_SN_STONE
+          !byte LD_LINE_H,2,4,36,92,2
+          !byte LD_LINE_H,4,10,12,92,2
+          !byte LD_LINE_H,24,10,12,92,2
+          !byte LD_LINE_H,18,16,8,92,2
+          !byte LD_LINE_H,2,16,10,92,2
+          !byte LD_LINE_H,32,16,6,92,2
+          !byte LD_ELEMENT,12,15,EL_SN_WOODEN_FLOOR3
+          !byte LD_ELEMENT,16,140
+          !byte LD_ELEMENT,2,137
+          !byte LD_ELEMENT,2,134
+          !byte LD_ELEMENT,36,134
+          !byte LD_ELEMENT,36,137
+          !byte LD_ELEMENT,30,143
+          !byte LD_ELEMENT,26,140
+          !byte LD_ELEMENT,22,137
+          !byte LD_ELEMENT,16,134
+          !byte LD_OBJECT,10,11,TYPE_PLAYER_DEAN
+          !byte LD_OBJECT,33,11,TYPE_PLAYER_SAM
+          !byte LD_SPAWN_SPOT,4,17,TYPE_SPIDER,5
+          !byte LD_SPAWN_SPOT,35,17,TYPE_SPIDER,5
+          !byte LD_LINE_H,18,15,8,0,0
+          !byte LD_LINE_H,2,15,10,0,0
+          !byte LD_LINE_H,32,15,6,0,0
+          !byte LD_LINE_H,24,9,12,0,0
+          !byte LD_LINE_H,4,9,12,0,0
+          !byte LD_LINE_H,2,3,36,0,0
+          !byte LD_ELEMENT_LINE_H,6,6,4,EL_SN_HORIZROCK
+          !byte LD_ELEMENT_LINE_H,26,6,4,EL_SN_HORIZROCK
+          !byte LD_ELEMENT_LINE_H,20,12,2,EL_SN_HORIZROCK
+          !byte LD_ELEMENT_LINE_H,2,12,4,EL_SN_HORIZROCK
+          !byte LD_ELEMENT_LINE_H,34,12,2,EL_SN_HORIZROCK
+          !byte LD_ELEMENT_LINE_H,2,0,6,EL_SN_HORIZROCK
+          !byte LD_ELEMENT_LINE_H,26,0,6,EL_SN_HORIZROCK
+          !byte LD_ELEMENT_LINE_H,2,18,6,EL_SN_HORIZROCK
+          !byte LD_ELEMENT_LINE_H,26,18,6,EL_SN_HORIZROCK
+          !byte LD_END
+SN_LEVEL_28
+          !byte LD_LEVEL_CONFIG,1
+          !byte LD_AREA,2,3,36,17,93,2
+          !byte LD_ELEMENT_LINE_H,2,8,3,EL_SN_STONE
+          !byte LD_ELEMENT_LINE_V,0,2,6,EL_SN_STONE_RIGHT_HALF
+          !byte LD_ELEMENT_LINE_V,38,2,6,EL_SN_STONE_LEFT_HALF
+          !byte LD_LINE_H,28,10,10,111,3
+          !byte LD_ELEMENT_LINE_H,0,0,10,EL_SN_STONE_LOWER_HALF_2
+          !byte LD_ELEMENT_LINE_H,24,11,4,EL_SN_STONE
+          !byte LD_ELEMENT,24,10,EL_SN_STONE_UPPER_HALF
+          !byte LD_ELEMENT_LINE_H,0,20,10,EL_SN_STONE_UPPER_HALF
+          !byte LD_LINE_H,2,3,36,92,2
+          !byte LD_LINE_H,2,19,36,111,3
+          !byte LD_LINE_H,2,12,12,92,2
+          !byte LD_LINE_H,24,15,14,92,2
+          !byte LD_LINE_H,2,7,8,111,3
+          !byte LD_ELEMENT,10,135
+          !byte LD_ELEMENT_LINE_V,18,7,1,EL_SN_WOODEN_FLOOR3
+          !byte LD_OBJECT,12,6,TYPE_PLAYER_DEAN
+          !byte LD_OBJECT,25,9,TYPE_PLAYER_SAM
+          !byte LD_SPAWN_SPOT,4,7,TYPE_SPIDER,3
+          !byte LD_SPAWN_SPOT,35,19,TYPE_SPIDER,3
+          !byte LD_SPAWN_SPOT,35,10,TYPE_JUMPING_TOAD,5
+          !byte LD_SPAWN_SPOT,4,19,TYPE_JUMPING_TOAD,5
+          !byte LD_ELEMENT,9,14,EL_SN_SEWER_PIPE_RED
+          !byte LD_ELEMENT,31,134
+          !byte LD_LINE_H,2,2,36,0,0
+          !byte LD_LINE_H,2,11,12,0,0
+          !byte LD_LINE_H,24,14,14,0,0
+          !byte LD_ELEMENT_LINE_V,18,9,1,EL_SN_WOODEN_FLOOR3
+          !byte LD_ELEMENT_LINE_V,18,11,1,EL_SN_WOODEN_FLOOR3
+          !byte LD_ELEMENT_LINE_V,18,13,1,EL_SN_WOODEN_FLOOR3
+          !byte LD_ELEMENT_LINE_V,18,15,1,EL_SN_WOODEN_FLOOR3
+          !byte LD_ELEMENT,17,17,EL_SN_STONE
+          !byte LD_ELEMENT_LINE_H,4,8,2,EL_SN_HORIZROCK
+          !byte LD_ELEMENT_LINE_H,30,11,2,EL_SN_HORIZROCK
+          !byte LD_END
+SN_LEVEL_29
+          !byte LD_AREA,2,3,36,17,93,2
+          !byte LD_LINE_H,2,2,36,0,0
+          !byte LD_LINE_H,2,3,36,92,2
+          !byte LD_ELEMENT_LINE_H,0,0,10,EL_SN_STONE_LOWER_HALF_2
+          !byte LD_ELEMENT_LINE_V,0,2,6,EL_SN_STONE_RIGHT_HALF
+          !byte LD_ELEMENT_LINE_V,8,2,3,EL_SN_STONE
+          !byte LD_ELEMENT_LINE_V,28,2,3,EL_SN_STONE
+          !byte LD_ELEMENT_LINE_V,38,2,6,EL_SN_STONE_LEFT_HALF
+          !byte LD_ELEMENT_LINE_H,18,10,2,EL_SN_WOODEN_FLOOR3
+          !byte LD_ELEMENT_LINE_H,16,12,4,EL_SN_WOODEN_FLOOR3
+          !byte LD_ELEMENT_LINE_H,14,14,6,EL_SN_WOODEN_FLOOR3
+          !byte LD_ELEMENT_LINE_H,4,16,16,EL_SN_WOODEN_FLOOR3
+          !byte LD_ELEMENT_LINE_H,10,18,10,EL_SN_WOODEN_FLOOR3
+          !byte LD_ELEMENT_LINE_H,0,20,10,EL_SN_STONE_UPPER_HALF
+          !byte LD_LINE_H,8,12,4,92,2
+          !byte LD_LINE_H,28,12,4,92,2
+          !byte LD_OBJECT,11,17,TYPE_PLAYER_DEAN
+          !byte LD_OBJECT,28,17,TYPE_PLAYER_SAM
+          !byte LD_SPAWN_SPOT,5,4,TYPE_SPIDER,5
+          !byte LD_SPAWN_SPOT,34,4,TYPE_SPIDER,5
+          !byte LD_SPAWN_SPOT,19,6,TYPE_EYE,5
+          !byte LD_LINE_H,8,11,4,0,0
+          !byte LD_LINE_H,28,11,4,0,0
+          !byte LD_ELEMENT_LINE_V,8,1,8,EL_SN_VERTROCK
+          !byte LD_ELEMENT_LINE_V,28,1,8,EL_SN_VERTROCK
+          !byte LD_END
+SN_LEVEL_30
+          !byte LD_LEVEL_CONFIG,1
+          !byte LD_AREA,4,3,32,16,93,6
+          !byte LD_ELEMENT_LINE_H,0,0,7,EL_SN_STONE_LOWER_HALF_2
+          !byte LD_ELEMENT_LINE_V,0,2,5,EL_SN_STONE
+          !byte LD_ELEMENT_LINE_V,36,5,5,EL_SN_STONE
+          !byte LD_ELEMENT_LINE_H,12,20,7,EL_SN_STONE_UPPER_HALF
+          !byte LD_ELEMENT,8,18,EL_SN_STONE
+          !byte LD_ELEMENT,4,144
+          !byte LD_LINE_H,12,19,24,93,6
+          !byte LD_LINE_H,4,3,24,92,6
+          !byte LD_ELEMENT_LINE_H,6,5,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,30,17,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,26,14,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,10,8,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,22,11,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,14,11,2,EL_SN_WOODEN_FLOOR
+          !byte LD_OBJECT,16,10,TYPE_PLAYER_DEAN
+          !byte LD_OBJECT,23,10,TYPE_PLAYER_SAM
+          !byte LD_SPAWN_SPOT,14,18,TYPE_GHOST_SKELETON,2
+          !byte LD_SPAWN_SPOT,29,6,TYPE_GHOST_SKELETON,2
+          !byte LD_LINE_H,4,2,24,0,0
+          !byte LD_ELEMENT_LINE_H,28,2,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,32,4,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT,28,0,EL_SN_STONE
+          !byte LD_ELEMENT,32,130
+          !byte LD_ELEMENT_LINE_V,0,7,8,EL_SN_VERTROCK
+          !byte LD_ELEMENT_LINE_V,36,7,8,EL_SN_VERTROCK
+          !byte LD_ELEMENT_LINE_V,36,18,3,EL_SN_VERTROCK
+          !byte LD_ELEMENT_LINE_V,0,1,3,EL_SN_VERTROCK
+          !byte LD_END
+SN_LEVEL_31
+          !byte LD_LEVEL_CONFIG,1
+          !byte LD_AREA,5,3,30,17,93,6
+          !byte LD_ELEMENT_LINE_H,6,0,7,EL_SN_STONE_LOWER_HALF_2
+          !byte LD_LINE_H,7,3,26,92,6
+          !byte LD_ELEMENT,3,2,EL_SN_STONE
+          !byte LD_ELEMENT_LINE_V,1,5,4,EL_SN_STONE
+          !byte LD_ELEMENT,33,130
+          !byte LD_ELEMENT,3,145
+          !byte LD_ELEMENT_LINE_H,6,20,7,EL_SN_STONE_UPPER_HALF
+          !byte LD_ELEMENT_LINE_V,35,5,4,EL_SN_STONE
+          !byte LD_ELEMENT,33,145
+          !byte LD_ELEMENT_LINE_H,9,7,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,9,17,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,27,17,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,27,7,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,13,10,2,EL_SN_WOODEN_FLOOR
+          !byte LD_LINE_H,18,17,4,92,6
+          !byte LD_ELEMENT_LINE_H,23,15,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,18,7,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT,18,13,EL_SN_STONE
+          !byte LD_OBJECT,11,16,TYPE_PLAYER_DEAN
+          !byte LD_OBJECT,28,16,TYPE_PLAYER_SAM
+          !byte LD_SPAWN_SPOT,7,11,TYPE_EYE,4
+          !byte LD_SPAWN_SPOT,32,11,TYPE_EYE,4
+          !byte LD_SPAWN_SPOT,19,5,TYPE_EYE,4
+          !byte LD_SPAWN_SPOT,19,18,TYPE_EYE,4
+          !byte LD_ELEMENT_LINE_V,1,9,3,EL_SN_VERTROCK
+          !byte LD_ELEMENT_LINE_V,35,9,3,EL_SN_VERTROCK
+          !byte LD_LINE_H,7,2,26,0,0
+          !byte LD_LINE_H,18,16,4,0,0
+          !byte LD_END
+SN_LEVEL_32
+          !byte LD_AREA,1,2,38,19,93,6
+          !byte LD_LINE_H,1,2,38,92,6
+          !byte LD_LINE_H,1,21,38,111,3
+          !byte LD_OBJECT,3,21,TYPE_PLAYER_DEAN
+          !byte LD_OBJECT,36,21,TYPE_PLAYER_SAM
+          !byte LD_SPAWN_SPOT,4,11,TYPE_EYE,4
+          !byte LD_SPAWN_SPOT,35,11,TYPE_EYE,4
+          !byte LD_SPAWN_SPOT,19,21,TYPE_JUMPING_TOAD,4
+          !byte LD_SPAWN_SPOT,19,6,TYPE_EYE,4
+          !byte LD_ELEMENT,10,16,EL_SN_SEWER_PIPE
+          !byte LD_ELEMENT,28,144
+          !byte LD_LINE_H,1,1,38,0,0
+          !byte LD_ELEMENT,10,135
+          !byte LD_ELEMENT,28,135
+          !byte LD_END
+SN_LEVEL_33
+          !byte LD_AREA,1,2,38,19,93,6
+          !byte LD_LINE_H,1,2,38,92,6
+          !byte LD_LINE_H,1,20,38,111,3
+          !byte LD_ELEMENT_LINE_H,15,19,2,EL_SN_STONE
+          !byte LD_ELEMENT,17,144
+          !byte LD_ELEMENT,1,147
+          !byte LD_ELEMENT,35,147
+          !byte LD_OBJECT,3,18,TYPE_PLAYER_DEAN
+          !byte LD_OBJECT,36,18,TYPE_PLAYER_SAM
+          !byte LD_OBJECT,19,11,TYPE_BOSS3
+          !byte LD_ELEMENT_LINE_H,11,14,2,EL_SN_WOODEN_FLOOR
+          !byte LD_ELEMENT_LINE_H,23,14,2,EL_SN_WOODEN_FLOOR
+          !byte LD_LINE_H,1,1,38,0,0
+          !byte LD_END
+SN_LEVEL_34
+          !byte LD_LEVEL_CONFIG,2
+          !byte LD_ELEMENT_AREA,1,1,19,5,EL_SN_BLUE_ROCK_BACKGROUND
+          !byte LD_ELEMENT_LINE_H,0,21,10,EL_SN_REDROCK
+          !byte LD_ELEMENT,7,19,EL_SN_RED_STONE_3
+          !byte LD_ELEMENT,13,144
+          !byte LD_ELEMENT,18,13,EL_SN_RED_STONE_4
+          !byte LD_ELEMENT,24,16,EL_SN_RED_STONE_3
+          !byte LD_ELEMENT,30,147
+          !byte LD_ELEMENT,32,13,EL_SN_RED_STONE_4
+          !byte LD_ELEMENT,4,141
+          !byte LD_OBJECT,18,12,TYPE_PLAYER_DEAN
+          !byte LD_OBJECT,21,12,TYPE_PLAYER_SAM
+          !byte LD_SPAWN_SPOT,5,8,TYPE_EYE,4
+          !byte LD_SPAWN_SPOT,33,18,TYPE_EYE,4
+          !byte LD_SPAWN_SPOT,19,19,TYPE_FLOATING_GHOST,2
+          !byte LD_END
+SN_LEVEL_35
+          !byte LD_LEVEL_CONFIG,3
+          !byte LD_ELEMENT_AREA,1,3,19,3,EL_SN_BLUE_ROCK_BACKGROUND
+          !byte LD_ELEMENT_LINE_H,38,13,4,EL_SN_REDROCK
+          !byte LD_ELEMENT_LINE_H,13,15,4,EL_SN_REDROCK
+          !byte LD_ELEMENT_LINE_H,28,14,3,EL_SN_REDROCK
+          !byte LD_ELEMENT_LINE_H,0,2,13,EL_SN_REDDISH_ROCK
+          !byte LD_OBJECT,3,13,TYPE_PLAYER_DEAN
+          !byte LD_OBJECT,36,13,TYPE_PLAYER_SAM
+          !byte LD_SPAWN_SPOT,16,12,TYPE_EYE,4
+          !byte LD_SPAWN_SPOT,20,9,TYPE_EYE,4
+          !byte LD_SPAWN_SPOT,24,12,TYPE_EYE,4
+          !byte LD_ELEMENT_LINE_V,38,2,3,EL_SN_REDDISH_ROCK
+          !byte LD_LINE_H,1,6,37,0,0
+          !byte LD_END
+SN_LEVEL_36
+          !byte LD_LEVEL_CONFIG,2
+          !byte LD_ELEMENT_AREA,1,1,19,5,EL_SN_BLUE_ROCK_BACKGROUND
+          !byte LD_ELEMENT,10,8,EL_SN_RED_STONE_4
+          !byte LD_ELEMENT_LINE_H,0,11,4,EL_SN_REDDISH_ROCK
+          !byte LD_ELEMENT_LINE_H,1,14,4,EL_SN_REDDISH_ROCK
+          !byte LD_ELEMENT_LINE_H,27,14,5,EL_SN_REDDISH_ROCK
+          !byte LD_ELEMENT_LINE_H,28,11,4,EL_SN_REDDISH_ROCK
+          !byte LD_ELEMENT_LINE_H,26,17,5,EL_SN_REDDISH_ROCK
+          !byte LD_ELEMENT_LINE_H,39,16,5,EL_SN_REDDISH_ROCK
+          !byte LD_ELEMENT,26,8,EL_SN_RED_STONE_4
+          !byte LD_ELEMENT,18,134
+          !byte LD_ELEMENT,18,146
+          !byte LD_ELEMENT_LINE_H,0,21,10,EL_SN_REDROCK
+          !byte LD_OBJECT,3,10,TYPE_PLAYER_DEAN
+          !byte LD_OBJECT,36,10,TYPE_PLAYER_SAM
+          !byte LD_SPAWN_SPOT,15,13,TYPE_EYE,4
+          !byte LD_SPAWN_SPOT,24,13,TYPE_EYE,4
+          !byte LD_SPAWN_SPOT,11,4,TYPE_EYE,4
+          !byte LD_SPAWN_SPOT,28,4,TYPE_EYE,4
+          !byte LD_END
+SN_LEVEL_37
+          !byte LD_LEVEL_CONFIG,2
+          !byte LD_ELEMENT_AREA,7,1,16,5,EL_SN_BLUE_ROCK_BACKGROUND
+          !byte LD_ELEMENT_LINE_H,1,1,2,EL_SN_REDDISH_ROCK
+          !byte LD_ELEMENT_LINE_H,0,5,3,EL_SN_REDDISH_ROCK
+          !byte LD_ELEMENT_LINE_H,1,9,2,EL_SN_REDDISH_ROCK
+          !byte LD_ELEMENT_LINE_H,1,13,3,EL_SN_REDDISH_ROCK
+          !byte LD_ELEMENT_LINE_H,0,17,5,EL_SN_REDDISH_ROCK
+          !byte LD_ELEMENT,19,18,EL_SN_RED_STONE_4
+          !byte LD_ELEMENT,25,144
+          !byte LD_ELEMENT,12,138
+          !byte LD_ELEMENT,14,6,EL_SN_RED_STONE_3
+          !byte LD_ELEMENT,14,142
+          !byte LD_ELEMENT,22,140
+          !byte LD_ELEMENT,33,143
+          !byte LD_OBJECT,12,16,TYPE_PLAYER_DEAN
+          !byte LD_OBJECT,34,14,TYPE_PLAYER_SAM
+          !byte LD_SPAWN_SPOT,35,19,TYPE_EYE,4
+          !byte LD_SPAWN_SPOT,13,9,TYPE_SLIME,4
+          !byte LD_SPAWN_SPOT,26,15,TYPE_SLIME,4
+          !byte LD_ELEMENT_LINE_H,0,21,10,EL_SN_REDROCK
+          !byte LD_LINE_H,7,9,2,0,0
+          !byte LD_END
+SN_LEVEL_38
+          !byte LD_LEVEL_CONFIG,3
+          !byte LD_ELEMENT_AREA,12,1,8,5,EL_SN_BLUE_ROCK_BACKGROUND
+          !byte LD_ELEMENT_LINE_H,11,0,1,EL_SN_REDDISH_ROCK
+          !byte LD_ELEMENT_LINE_H,10,4,1,EL_SN_REDDISH_ROCK
+          !byte LD_ELEMENT_LINE_H,11,8,1,EL_SN_REDDISH_ROCK
+          !byte LD_ELEMENT_LINE_H,12,21,4,EL_SN_REDROCK
+          !byte LD_ELEMENT_LINE_H,10,12,1,EL_SN_REDDISH_ROCK
+          !byte LD_ELEMENT_LINE_H,11,14,1,EL_SN_REDDISH_ROCK
+          !byte LD_ELEMENT_LINE_H,10,18,1,EL_SN_REDDISH_ROCK
+          !byte LD_ELEMENT_LINE_H,25,0,1,EL_SN_REDDISH_ROCK
+          !byte LD_ELEMENT_LINE_H,26,4,1,EL_SN_REDDISH_ROCK
+          !byte LD_ELEMENT_LINE_H,25,7,1,EL_SN_REDDISH_ROCK
+          !byte LD_ELEMENT_LINE_H,26,11,1,EL_SN_REDDISH_ROCK
+          !byte LD_ELEMENT_LINE_H,25,15,1,EL_SN_REDDISH_ROCK
+          !byte LD_ELEMENT_LINE_H,26,18,1,EL_SN_REDDISH_ROCK
+          !byte LD_LINE_H,13,20,13,111,3
+          !byte LD_ELEMENT,16,18,EL_SN_RED_STONE_3
+          !byte LD_ELEMENT,20,143
+          !byte LD_ELEMENT,15,140
+          !byte LD_ELEMENT,21,137
+          !byte LD_ELEMENT,17,134
+          !byte LD_OBJECT,17,17,TYPE_PLAYER_DEAN
+          !byte LD_OBJECT,21,14,TYPE_PLAYER_SAM
+          !byte LD_SPAWN_SPOT,18,5,TYPE_JUMPING_TOAD,2
+          !byte LD_SPAWN_SPOT,22,20,TYPE_JUMPING_TOAD,2
+          !byte LD_SPAWN_SPOT,15,20,TYPE_JUMPING_TOAD,2
+          !byte LD_LINE_H,13,4,1,0,0
+          !byte LD_LINE_H,25,4,1,0,0
+          !byte LD_LINE_H,13,12,1,0,0
+          !byte LD_LINE_H,13,18,1,0,0
+          !byte LD_LINE_H,25,19,1,0,0
+          !byte LD_LINE_H,25,11,1,0,0
+          !byte LD_END
+SN_LEVEL_39
+          !byte LD_LEVEL_CONFIG,3
+          !byte LD_ELEMENT_LINE_H,12,1,8,EL_SN_BLUE_ROCK_BACKGROUND
+          !byte LD_ELEMENT_AREA,0,5,19,4,EL_SN_BLUE_ROCK_BACKGROUND
+          !byte LD_ELEMENT_LINE_H,10,0,1,EL_SN_REDDISH_ROCK
+          !byte LD_ELEMENT_LINE_H,0,2,4,EL_SN_REDDISH_ROCK
+          !byte LD_ELEMENT_LINE_H,26,0,1,EL_SN_REDDISH_ROCK
+          !byte LD_ELEMENT_LINE_H,27,1,4,EL_SN_REDDISH_ROCK
+          !byte LD_ELEMENT_LINE_V,38,1,5,EL_SN_REDDISH_ROCK
+          !byte LD_ELEMENT_LINE_H,0,21,10,EL_SN_REDROCK
+          !byte LD_ELEMENT,11,19,EL_SN_RED_STONE_4
+          !byte LD_ELEMENT,25,143
+          !byte LD_ELEMENT,18,145
+          !byte LD_ELEMENT,25,11,EL_SN_RED_STONE_LEFT
+          !byte LD_ELEMENT,13,11,EL_SN_RED_STONE_RIGHT
+          !byte LD_ELEMENT_LINE_H,26,11,6,EL_SN_RED_STONE_CENTER
+          !byte LD_ELEMENT_LINE_H,1,11,6,EL_SN_RED_STONE_CENTER
+          !byte LD_ELEMENT,32,13,EL_SN_RED_STONE_4
+          !byte LD_ELEMENT,11,143
+          !byte LD_ELEMENT,4,141
+          !byte LD_ELEMENT,25,147
+          !byte LD_OBJECT,12,18,TYPE_PLAYER_DEAN
+          !byte LD_OBJECT,27,18,TYPE_PLAYER_SAM
+          !byte LD_SPAWN_SPOT,6,20,TYPE_JUMPING_TOAD,2
+          !byte LD_SPAWN_SPOT,33,20,TYPE_JUMPING_TOAD,2
+          !byte LD_SPAWN_SPOT,34,10,TYPE_SLIME,2
+          !byte LD_SPAWN_SPOT,4,10,TYPE_SLIME,2
+          !byte LD_SPAWN_SPOT,19,16,TYPE_SLIME,4
+          !byte LD_LINE_H,1,6,11,0,0
+          !byte LD_LINE_H,27,5,11,0,0
+          !byte LD_LINE_H,12,4,1,0,0
+          !byte LD_LINE_H,26,4,1,0,0
+          !byte LD_END
+SN_LEVEL_40
+          !byte LD_LEVEL_CONFIG,3
+          !byte LD_ELEMENT_AREA,1,3,19,4,EL_SN_BLUE_ROCK_BACKGROUND
+          !byte LD_ELEMENT_LINE_H,0,1,2,EL_SN_REDDISH_ROCK
+          !byte LD_ELEMENT_LINE_H,4,0,2,EL_SN_REDDISH_ROCK
+          !byte LD_ELEMENT_LINE_H,9,1,2,EL_SN_REDDISH_ROCK
+          !byte LD_ELEMENT_LINE_H,14,3,2,EL_SN_REDDISH_ROCK
+          !byte LD_ELEMENT_LINE_H,11,17,2,EL_SN_REDDISH_ROCK
+          !byte LD_ELEMENT_LINE_H,1,18,4,EL_SN_REDDISH_ROCK
+          !byte LD_ELEMENT_LINE_V,0,4,4,EL_SN_REDDISH_ROCK
+          !byte LD_ELEMENT_LINE_H,18,2,4,EL_SN_REDDISH_ROCK
+          !byte LD_ELEMENT_LINE_H,23,5,2,EL_SN_REDDISH_ROCK
+          !byte LD_ELEMENT_LINE_H,29,0,2,EL_SN_REDDISH_ROCK
+          !byte LD_ELEMENT_LINE_H,33,1,2,EL_SN_REDDISH_ROCK
+          !byte LD_ELEMENT_LINE_V,37,4,4,EL_SN_REDDISH_ROCK
+          !byte LD_ELEMENT_LINE_H,33,18,2,EL_SN_REDDISH_ROCK
+          !byte LD_ELEMENT_LINE_H,22,17,4,EL_SN_REDDISH_ROCK
+          !byte LD_ELEMENT_LINE_H,16,18,2,EL_SN_REDDISH_ROCK
+          !byte LD_OBJECT,6,17,TYPE_PLAYER_DEAN
+          !byte LD_OBJECT,31,16,TYPE_PLAYER_SAM
+          !byte LD_SPAWN_SPOT,7,8,TYPE_BAT_DIAG,4
+          !byte LD_SPAWN_SPOT,33,8,TYPE_BAT_DIAG,4
+          !byte LD_SPAWN_SPOT,15,14,TYPE_BAT_DIAG,4
+          !byte LD_SPAWN_SPOT,24,11,TYPE_BAT_DIAG,4
+          !byte LD_LINE_H,3,5,3,0,0
+          !byte LD_LINE_H,6,4,3,0,0
+          !byte LD_LINE_H,30,4,3,0,0
+          !byte LD_LINE_H,20,6,3,0,0
+          !byte LD_LINE_H,9,5,5,0,0
+          !byte LD_LINE_H,14,7,6,0,0
+          !byte LD_LINE_H,23,9,6,0,0
+          !byte LD_LINE_H,33,5,4,0,0
+          !byte LD_END
+SN_LEVEL_41
+          !byte LD_LEVEL_CONFIG,3
+          !byte LD_ELEMENT_AREA,1,3,19,4,EL_SN_BLUE_ROCK_BACKGROUND
+          !byte LD_ELEMENT_LINE_H,17,10,2,EL_SN_REDDISH_ROCK
+          !byte LD_ELEMENT_LINE_H,0,1,13,EL_SN_REDDISH_ROCK
+          !byte LD_ELEMENT_LINE_H,0,18,13,EL_SN_REDDISH_ROCK
+          !byte LD_ELEMENT_LINE_V,0,3,4,EL_SN_REDDISH_ROCK
+          !byte LD_ELEMENT_LINE_V,36,4,4,EL_SN_REDDISH_ROCK
+          !byte LD_ELEMENT,11,15,EL_SN_RED_STONE_4
+          !byte LD_ELEMENT,6,140
+          !byte LD_ELEMENT,25,143
+          !byte LD_ELEMENT,30,140
+          !byte LD_ELEMENT,24,138
+          !byte LD_ELEMENT,12,138
+          !byte LD_OBJECT,5,17,TYPE_PLAYER_DEAN
+          !byte LD_OBJECT,33,17,TYPE_PLAYER_SAM
+          !byte LD_SPAWN_SPOT,20,17,TYPE_HAND,2
+          !byte LD_SPAWN_SPOT,20,9,TYPE_HAND,2
+          !byte LD_SPAWN_SPOT,7,11,TYPE_JUMPING_TOAD,3
+          !byte LD_SPAWN_SPOT,32,11,TYPE_JUMPING_TOAD,3
+          !byte LD_LINE_H,17,14,6,0,0
+          !byte LD_LINE_H,3,5,33,0,0
+          !byte LD_END
+SN_LEVEL_42
+          !byte LD_LEVEL_CONFIG,2
+          !byte LD_ELEMENT_AREA,1,3,19,4,EL_SN_BLUE_ROCK_BACKGROUND
+          !byte LD_ELEMENT_LINE_H,0,18,13,EL_SN_REDDISH_ROCK
+          !byte LD_ELEMENT_LINE_H,0,1,13,EL_SN_REDDISH_ROCK
+          !byte LD_ELEMENT_LINE_V,0,3,4,EL_SN_REDDISH_ROCK
+          !byte LD_ELEMENT_LINE_V,36,4,4,EL_SN_REDDISH_ROCK
+          !byte LD_ELEMENT,18,138
+          !byte LD_ELEMENT,10,15,EL_SN_RED_STONE_4
+          !byte LD_ELEMENT,25,143
+          !byte LD_ELEMENT,23,12,EL_SN_RED_STONE_3
+          !byte LD_ELEMENT,13,140
+          !byte LD_OBJECT,14,11,TYPE_PLAYER_DEAN
+          !byte LD_OBJECT,24,11,TYPE_PLAYER_SAM
+          !byte LD_SPAWN_SPOT,11,14,TYPE_FLY,4
+          !byte LD_SPAWN_SPOT,27,14,TYPE_FLY,4
+          !byte LD_SPAWN_SPOT,5,8,TYPE_FLY,4
+          !byte LD_SPAWN_SPOT,33,8,TYPE_FLY,4
+          !byte LD_LINE_H,3,5,33,0,0
+          !byte LD_END
+SN_LEVEL_43
+          !byte LD_LEVEL_CONFIG,2
+          !byte LD_ELEMENT_AREA,1,2,19,5,EL_SN_BLUE_ROCK_BACKGROUND
+          !byte LD_ELEMENT_LINE_H,4,19,3,EL_SN_RED_STONE_CENTER
+          !byte LD_ELEMENT,2,19,EL_SN_RED_STONE_LEFT
+          !byte LD_ELEMENT,10,19,EL_SN_RED_STONE_RIGHT
+          !byte LD_ELEMENT,36,147
+          !byte LD_ELEMENT_LINE_H,30,19,3,EL_SN_RED_STONE_CENTER
+          !byte LD_ELEMENT,28,19,EL_SN_RED_STONE_LEFT
+          !byte LD_ELEMENT_LINE_H,24,16,3,EL_SN_RED_STONE_CENTER
+          !byte LD_ELEMENT,30,16,EL_SN_RED_STONE_RIGHT
+          !byte LD_ELEMENT,22,16,EL_SN_RED_STONE_LEFT
+          !byte LD_ELEMENT,8,144
+          !byte LD_ELEMENT_LINE_H,10,16,3,EL_SN_RED_STONE_CENTER
+          !byte LD_ELEMENT,16,16,EL_SN_RED_STONE_RIGHT
+          !byte LD_ELEMENT,2,13,EL_SN_RED_STONE_LEFT
+          !byte LD_ELEMENT_LINE_H,4,13,3,EL_SN_RED_STONE_CENTER
+          !byte LD_ELEMENT,10,13,EL_SN_RED_STONE_RIGHT
+          !byte LD_ELEMENT,28,13,EL_SN_RED_STONE_LEFT
+          !byte LD_ELEMENT_LINE_H,30,13,3,EL_SN_RED_STONE_CENTER
+          !byte LD_ELEMENT,36,13,EL_SN_RED_STONE_RIGHT
+          !byte LD_ELEMENT,14,10,EL_SN_RED_STONE_LEFT
+          !byte LD_ELEMENT_LINE_H,16,10,4,EL_SN_RED_STONE_CENTER
+          !byte LD_ELEMENT,24,10,EL_SN_RED_STONE_RIGHT
+          !byte LD_ELEMENT,8,8,EL_SN_RED_STONE_4
+          !byte LD_ELEMENT,28,136
+          !byte LD_OBJECT,16,15,TYPE_PLAYER_DEAN
+          !byte LD_OBJECT,23,15,TYPE_PLAYER_SAM
+          !byte LD_SPAWN_SPOT,6,21,TYPE_WOLFMAN,4
+          !byte LD_SPAWN_SPOT,33,21,TYPE_WOLFMAN,4
+          !byte LD_SPAWN_SPOT,29,7,TYPE_WOLFMAN,4
+          !byte LD_SPAWN_SPOT,10,7,TYPE_WOLFMAN,4
+          !byte LD_END
+SN_LEVEL_44
+          !byte LD_LEVEL_CONFIG,2
+          !byte LD_ELEMENT_AREA,1,1,19,5,EL_SN_BLUE_ROCK_BACKGROUND
+          !byte LD_OBJECT,6,17,TYPE_PLAYER_DEAN
+          !byte LD_OBJECT,32,17,TYPE_PLAYER_SAM
+          !byte LD_OBJECT,19,10,TYPE_BOSS4
+          !byte LD_ELEMENT,7,15,EL_SN_RED_STONE_4
+          !byte LD_ELEMENT,14,143
+          !byte LD_ELEMENT,5,146
+          !byte LD_ELEMENT,31,146
+          !byte LD_ELEMENT,29,143
+          !byte LD_ELEMENT,22,143
+          !byte LD_LINE_H,1,21,38,162,13
+          !byte LD_ELEMENT,12,140
+          !byte LD_ELEMENT,24,140
+          !byte LD_ELEMENT,26,137
+          !byte LD_ELEMENT,10,137
+          !byte LD_END
+SN_LEVEL_45
+          !byte LD_LEVEL_CONFIG,2
+          !byte LD_AREA,1,18,24,4,3,8
+          !byte LD_ELEMENT_LINE_H,1,17,7,EL_SN_SAND_FLOOR
+          !byte LD_ELEMENT_LINE_H,15,18,5,EL_SN_SAND_FLOOR
+          !byte LD_ELEMENT_LINE_H,25,19,7,EL_SN_SAND_FLOOR
+          !byte LD_ELEMENT,11,14,EL_SN_SAND_STONE_4
+          !byte LD_ELEMENT,18,141
+          !byte LD_ELEMENT,25,140
+          !byte LD_ELEMENT,32,139
+          !byte LD_AREA,25,20,14,2,3,8
+          !byte LD_OBJECT,8,16,TYPE_PLAYER_DEAN
+          !byte LD_OBJECT,30,18,TYPE_PLAYER_SAM
+          !byte LD_SPAWN_SPOT,34,10,TYPE_WOLFMAN,4
+          !byte LD_SPAWN_SPOT,27,11,TYPE_WOLFMAN,4
+          !byte LD_ELEMENT,4,143
+          !byte LD_ELEMENT,24,143
+          !byte LD_ELEMENT,30,145
+          !byte LD_ELEMENT,12,139
+          !byte LD_ELEMENT,6,137
+          !byte LD_END
+SN_LEVEL_46
+          !byte LD_LEVEL_CONFIG,2
+          !byte LD_AREA,15,15,10,2,3,8
+          !byte LD_ELEMENT_LINE_H,17,13,3,EL_SN_SAND_FLOOR
+          !byte LD_ELEMENT,15,142
+          !byte LD_ELEMENT,13,143
+          !byte LD_AREA,1,19,38,3,3,8
+          !byte LD_AREA,9,16,22,2,3,8
+          !byte LD_ELEMENT,11,143
+          !byte LD_AREA,5,18,30,2,3,8
+          !byte LD_ELEMENT,9,144
+          !byte LD_ELEMENT,7,145
+          !byte LD_ELEMENT,5,146
+          !byte LD_ELEMENT,3,146
+          !byte LD_ELEMENT,1,146
+          !byte LD_ELEMENT,23,142
+          !byte LD_ELEMENT,25,143
+          !byte LD_ELEMENT,27,143
+          !byte LD_ELEMENT,29,144
+          !byte LD_ELEMENT,31,145
+          !byte LD_ELEMENT,33,146
+          !byte LD_ELEMENT,35,146
+          !byte LD_ELEMENT,37,146
+          !byte LD_LINE_H,17,14,6,3,8
+          !byte LD_OBJECT,17,12,TYPE_PLAYER_DEAN
+          !byte LD_OBJECT,22,12,TYPE_PLAYER_SAM
+          !byte LD_SPAWN_SPOT,36,17,TYPE_JUMPING_TOAD,4
+          !byte LD_SPAWN_SPOT,32,16,TYPE_JUMPING_TOAD,4
+          !byte LD_SPAWN_SPOT,3,17,TYPE_JUMPING_TOAD,4
+          !byte LD_SPAWN_SPOT,7,16,TYPE_JUMPING_TOAD,4
+          !byte LD_END
+SN_LEVEL_47
+          !byte LD_LEVEL_CONFIG,2
+          !byte LD_AREA,1,20,38,2,215,8
+          !byte LD_ELEMENT_LINE_H,17,20,3,EL_SN_SAND_FLOOR
+          !byte LD_ELEMENT,15,147
+          !byte LD_ELEMENT,13,145
+          !byte LD_ELEMENT,11,142
+          !byte LD_ELEMENT,9,140
+          !byte LD_ELEMENT_LINE_H,1,10,4,EL_SN_SAND_FLOOR
+          !byte LD_ELEMENT,23,147
+          !byte LD_ELEMENT,25,145
+          !byte LD_ELEMENT,27,142
+          !byte LD_ELEMENT,29,140
+          !byte LD_ELEMENT_LINE_H,31,10,4,EL_SN_SAND_FLOOR
+          !byte LD_AREA,1,11,8,9,215,8
+          !byte LD_AREA,31,11,8,9,215,8
+          !byte LD_AREA,9,13,2,7,215,8
+          !byte LD_AREA,29,13,2,7,215,8
+          !byte LD_AREA,11,15,2,5,215,8
+          !byte LD_AREA,27,15,2,5,215,8
+          !byte LD_AREA,13,18,2,2,215,8
+          !byte LD_AREA,25,18,2,2,215,8
+          !byte LD_OBJECT,14,16,TYPE_PLAYER_DEAN
+          !byte LD_OBJECT,25,16,TYPE_PLAYER_SAM
+          !byte LD_SPAWN_SPOT,4,9,TYPE_JUMPING_TOAD,4
+          !byte LD_SPAWN_SPOT,36,9,TYPE_JUMPING_TOAD,4
+          !byte LD_SPAWN_SPOT,19,19,TYPE_SLIME,4
+          !byte LD_SPAWN_SPOT,20,19,TYPE_SLIME,4
+          !byte LD_END
+SN_LEVEL_48
+          !byte LD_LEVEL_CONFIG,2
+          !byte LD_ELEMENT_LINE_H,1,15,4,EL_SN_SAND_FLOOR
+          !byte LD_ELEMENT_LINE_H,9,16,3,EL_SN_SAND_FLOOR
+          !byte LD_ELEMENT_LINE_H,31,15,4,EL_SN_SAND_FLOOR
+          !byte LD_AREA,9,17,22,5,215,8
+          !byte LD_ELEMENT_LINE_H,25,16,3,EL_SN_SAND_FLOOR
+          !byte LD_LINE_H,15,17,10,111,3
+          !byte LD_AREA,1,16,8,6,215,8
+          !byte LD_AREA,31,16,8,6,215,8
+          !byte LD_OBJECT,13,15,TYPE_PLAYER_DEAN
+          !byte LD_OBJECT,26,15,TYPE_PLAYER_SAM
+          !byte LD_SPAWN_SPOT,3,14,TYPE_SLIME,4
+          !byte LD_SPAWN_SPOT,36,14,TYPE_SLIME,4
+          !byte LD_ELEMENT,18,15,EL_SN_SAND_STONE_4
+          !byte LD_SPAWN_SPOT,17,17,TYPE_SLIME,4
+          !byte LD_SPAWN_SPOT,22,17,TYPE_SLIME,4
+          !byte LD_END
+SN_LEVEL_49
+          !byte LD_LEVEL_CONFIG,2
+          !byte LD_AREA,1,20,38,2,215,8
+          !byte LD_ELEMENT_LINE_H,1,19,19,EL_SN_SAND_FLOOR
+          !byte LD_ELEMENT_LINE_H,17,15,3,EL_SN_SLIME_CEILING
+          !byte LD_ELEMENT,9,16,EL_SN_SAND_STONE_4
+          !byte LD_ELEMENT,28,144
+          !byte LD_AREA,17,13,6,2,215,8
+          !byte LD_ELEMENT_LINE_H,17,12,3,EL_SN_SAND_FLOOR
+          !byte LD_ELEMENT,28,13,EL_SN_SAND_STONE_4
+          !byte LD_ELEMENT,28,138
+          !byte LD_ELEMENT,9,141
+          !byte LD_ELEMENT,9,138
+          !byte LD_ELEMENT_LINE_H,1,9,2,EL_SN_SAND_FLOOR
+          !byte LD_LINE_H,1,10,4,215,8
+          !byte LD_ELEMENT_LINE_H,1,11,2,EL_SN_SLIME_CEILING
+          !byte LD_ELEMENT_LINE_H,35,9,2,EL_SN_SAND_FLOOR
+          !byte LD_LINE_H,35,10,4,215,8
+          !byte LD_ELEMENT_LINE_H,35,11,2,EL_SN_SLIME_CEILING
+          !byte LD_OBJECT,11,15,TYPE_PLAYER_DEAN
+          !byte LD_OBJECT,29,15,TYPE_PLAYER_SAM
+          !byte LD_SPAWN_SPOT,5,18,TYPE_SLIME,4
+          !byte LD_SPAWN_SPOT,33,18,TYPE_SLIME,4
+          !byte LD_SPAWN_SPOT,14,6,TYPE_FLY,8
+          !byte LD_SPAWN_SPOT,25,6,TYPE_FLY,8
+          !byte LD_SPAWN_SPOT,2,8,TYPE_SLIME,4
+          !byte LD_SPAWN_SPOT,37,8,TYPE_SLIME,4
+          !byte LD_END
+SN_LEVEL_50
+          !byte LD_LEVEL_CONFIG,2
+          !byte LD_ELEMENT_AREA,1,1,19,5,EL_SN_RED_ROCK_BACKGROUND
+          !byte LD_ELEMENT,13,17,EL_SN_SAND_STONE_4
+          !byte LD_ELEMENT,18,145
+          !byte LD_ELEMENT,23,145
+          !byte LD_ELEMENT,11,142
+          !byte LD_ELEMENT,25,142
+          !byte LD_ELEMENT,25,139
+          !byte LD_ELEMENT,11,139
+          !byte LD_ELEMENT,13,136
+          !byte LD_ELEMENT,18,135
+          !byte LD_ELEMENT,23,136
+          !byte LD_ELEMENT,6,134
+          !byte LD_ELEMENT,30,134
+          !byte LD_OBJECT,7,5,TYPE_PLAYER_DEAN
+          !byte LD_OBJECT,32,5,TYPE_PLAYER_SAM
+          !byte LD_SPAWN_SPOT,16,11,TYPE_FLY,8
+          !byte LD_SPAWN_SPOT,19,13,TYPE_FLY,8
+          !byte LD_SPAWN_SPOT,22,11,TYPE_FLY,8
+          !byte LD_SPAWN_SPOT,15,16,TYPE_SLIME,3
+          !byte LD_SPAWN_SPOT,24,16,TYPE_SLIME,3
+          !byte LD_ELEMENT_LINE_H,13,21,7,EL_SN_SAND_FLOOR
+          !byte LD_AREA,1,19,4,3,215,8
+          !byte LD_AREA,5,20,8,2,215,8
+          !byte LD_ELEMENT_LINE_H,1,18,2,EL_SN_SAND_FLOOR
+          !byte LD_AREA,27,20,8,2,215,8
+          !byte LD_ELEMENT_LINE_H,5,19,2,EL_SN_SAND_FLOOR
+          !byte LD_ELEMENT_LINE_H,9,20,2,EL_SN_SAND_FLOOR
+          !byte LD_ELEMENT_LINE_H,27,20,2,EL_SN_SAND_FLOOR
+          !byte LD_ELEMENT_LINE_H,31,19,2,EL_SN_SAND_FLOOR
+          !byte LD_ELEMENT_LINE_H,35,18,2,EL_SN_SAND_FLOOR
+          !byte LD_AREA,35,19,4,3,215,8
+          !byte LD_END
+SN_LEVEL_51
+          !byte LD_LEVEL_CONFIG,2
+          !byte LD_ELEMENT_AREA,15,10,5,3,EL_SN_RED_ROCK_BACKGROUND
+          !byte LD_ELEMENT_LINE_H,18,4,2,EL_SN_SAND_FLOOR
+          !byte LD_AREA,14,5,12,5,215,8
+          !byte LD_ELEMENT_LINE_H,14,5,2,EL_SN_SAND_FLOOR
+          !byte LD_ELEMENT_LINE_H,22,5,2,EL_SN_SAND_FLOOR
+          !byte LD_ELEMENT_LINE_H,14,9,2,EL_SN_SLIME_CEILING
+          !byte LD_ELEMENT_LINE_H,18,10,2,EL_SN_SLIME_CEILING
+          !byte LD_ELEMENT_LINE_H,22,9,2,EL_SN_SLIME_CEILING
+          !byte LD_ELEMENT_LINE_H,18,18,2,EL_SN_SAND_FLOOR
+          !byte LD_ELEMENT_LINE_H,14,19,2,EL_SN_SAND_FLOOR
+          !byte LD_AREA,1,20,38,2,215,8
+          !byte LD_ELEMENT_LINE_H,22,19,2,EL_SN_SAND_FLOOR
+          !byte LD_ELEMENT_LINE_H,0,20,7,EL_SN_SAND_FLOOR
+          !byte LD_ELEMENT_LINE_H,26,20,7,EL_SN_SAND_FLOOR
+          !byte LD_LINE_H,18,19,4,215,8
+          !byte LD_OBJECT,3,19,TYPE_PLAYER_DEAN
+          !byte LD_OBJECT,36,19,TYPE_PLAYER_SAM
+          !byte LD_SPAWN_SPOT,15,4,TYPE_SPIDER,4
+          !byte LD_SPAWN_SPOT,24,4,TYPE_SPIDER,4
+          !byte LD_SPAWN_SPOT,19,3,TYPE_SPIDER,4
+          !byte LD_LINE_H,14,10,4,0,0
+          !byte LD_LINE_H,22,10,4,0,0
+          !byte LD_LINE_H,18,11,4,0,0
+          !byte LD_END
+SN_LEVEL_52
+          !byte LD_LEVEL_CONFIG,2
+          !byte LD_ELEMENT_AREA,5,12,16,2,EL_SN_RED_ROCK_BACKGROUND
+          !byte LD_AREA,35,11,4,11,215,8
+          !byte LD_ELEMENT,37,10,EL_SN_SAND_FLOOR
+          !byte LD_ELEMENT,35,139
+          !byte LD_AREA,31,13,4,9,215,8
+          !byte LD_ELEMENT,33,140
+          !byte LD_AREA,23,17,4,5,215,8
+          !byte LD_AREA,27,15,4,7,215,8
+          !byte LD_ELEMENT,31,141
+          !byte LD_ELEMENT,29,142
+          !byte LD_ELEMENT,27,143
+          !byte LD_ELEMENT,25,144
+          !byte LD_ELEMENT,23,145
+          !byte LD_AREA,1,11,4,11,215,8
+          !byte LD_ELEMENT,21,146
+          !byte LD_ELEMENT,1,138
+          !byte LD_AREA,5,13,4,9,215,8
+          !byte LD_ELEMENT,3,139
+          !byte LD_ELEMENT,5,140
+          !byte LD_AREA,9,15,4,7,215,8
+          !byte LD_ELEMENT,7,141
+          !byte LD_ELEMENT,9,142
+          !byte LD_ELEMENT,11,143
+          !byte LD_AREA,13,17,4,5,215,8
+          !byte LD_ELEMENT,13,144
+          !byte LD_ELEMENT,15,145
+          !byte LD_ELEMENT,17,146
+          !byte LD_ELEMENT,19,149
+          !byte LD_AREA,17,19,2,3,215,8
+          !byte LD_AREA,21,19,2,3,215,8
+          !byte LD_ELEMENT,19,17,EL_SN_RED_ROCK_BACKGROUND
+          !byte LD_OBJECT,6,11,TYPE_PLAYER_DEAN
+          !byte LD_OBJECT,33,11,TYPE_PLAYER_SAM
+          !byte LD_SPAWN_SPOT,20,20,TYPE_SPIDER,8
+          !byte LD_END
+SN_LEVEL_53
+          !byte LD_LEVEL_CONFIG,3
+          !byte LD_ELEMENT_AREA,1,4,19,2,EL_SN_RED_ROCK_BACKGROUND
+          !byte LD_ELEMENT_AREA,6,12,14,2,EL_SN_RED_ROCK_BACKGROUND
+          !byte LD_AREA,0,0,40,4,215,8
+          !byte LD_AREA,0,6,3,8,215,8
+          !byte LD_AREA,3,12,4,3,215,8
+          !byte LD_AREA,33,12,4,3,215,8
+          !byte LD_AREA,37,6,3,8,215,8
+          !byte LD_AREA,31,14,3,8,215,8
+          !byte LD_AREA,6,14,3,8,215,8
+          !byte LD_LINE_H,9,21,22,215,8
+          !byte LD_ELEMENT_LINE_H,9,20,11,EL_SN_SAND_FLOOR
+          !byte LD_ELEMENT,3,139
+          !byte LD_ELEMENT,5,140
+          !byte LD_ELEMENT,7,141
+          !byte LD_ELEMENT,31,141
+          !byte LD_ELEMENT,33,140
+          !byte LD_ELEMENT,35,139
+          !byte LD_ELEMENT_LINE_H,0,3,8,EL_SN_SLIME_CEILING
+          !byte LD_ELEMENT,37,6,EL_SN_SAND_FLOOR
+          !byte LD_ELEMENT,1,134
+          !byte LD_OBJECT,6,11,TYPE_PLAYER_DEAN
+          !byte LD_OBJECT,33,11,TYPE_PLAYER_SAM
+          !byte LD_SPAWN_SPOT,11,19,TYPE_SLIME,5
+          !byte LD_SPAWN_SPOT,28,19,TYPE_SLIME,5
+          !byte LD_SPAWN_SPOT,17,19,TYPE_SLIME,5
+          !byte LD_SPAWN_SPOT,23,19,TYPE_SLIME,5
+          !byte LD_ELEMENT_LINE_H,24,3,8,EL_SN_SLIME_CEILING
+          !byte LD_ELEMENT_LINE_H,16,4,4,EL_SN_SLIME_CEILING
+          !byte LD_LINE_H,16,5,8,0,0
+          !byte LD_LINE_H,1,4,15,0,0
+          !byte LD_LINE_H,24,4,15,0,0
+          !byte LD_AREA,0,14,6,8,3,10
+          !byte LD_AREA,34,14,6,8,3,15
+          !byte LD_ELEMENT_LINE_H,13,16,1,EL_SN_SAND_STONE_4
+          !byte LD_ELEMENT_LINE_H,23,16,1,EL_SN_SAND_STONE_4
+          !byte LD_ELEMENT_LINE_H,18,13,1,EL_SN_SAND_STONE_4
+          !byte LD_END
+SN_LEVEL_54
+          !byte LD_LEVEL_CONFIG,2
+          !byte LD_ELEMENT_AREA,9,7,11,2,EL_SN_RED_ROCK_BACKGROUND
+          !byte LD_AREA,1,6,8,16,215,8
+          !byte LD_AREA,31,6,8,16,215,8
+          !byte LD_ELEMENT_LINE_H,3,5,2,EL_SN_SAND_FLOOR
+          !byte LD_ELEMENT,7,134
+          !byte LD_ELEMENT,1,134
+          !byte LD_ELEMENT,37,134
+          !byte LD_ELEMENT,31,134
+          !byte LD_ELEMENT_LINE_H,33,5,2,EL_SN_SAND_FLOOR
+          !byte LD_AREA,9,9,4,13,215,8
+          !byte LD_ELEMENT,9,136
+          !byte LD_ELEMENT,11,137
+          !byte LD_AREA,27,9,4,13,215,8
+          !byte LD_ELEMENT,29,136
+          !byte LD_ELEMENT,27,137
+          !byte LD_AREA,13,12,4,10,215,8
+          !byte LD_AREA,23,12,4,10,215,8
+          !byte LD_ELEMENT,25,139
+          !byte LD_ELEMENT,23,140
+          !byte LD_ELEMENT,13,139
+          !byte LD_ELEMENT,15,140
+          !byte LD_AREA,17,16,6,6,215,8
+          !byte LD_ELEMENT_LINE_H,17,15,3,EL_SN_SAND_FLOOR
+          !byte LD_OBJECT,18,14,TYPE_PLAYER_DEAN
+          !byte LD_OBJECT,21,14,TYPE_PLAYER_SAM
+          !byte LD_OBJECT,4,4,TYPE_HAND
+          !byte LD_SPAWN_SPOT,8,5,TYPE_ZOMBIE,5
+          !byte LD_OBJECT,34,4,TYPE_HAND
+          !byte LD_SPAWN_SPOT,31,5,TYPE_ZOMBIE,5
+          !byte LD_ELEMENT,15,8,EL_SN_SAND_STONE_4
+          !byte LD_ELEMENT,21,136
+          !byte LD_SPAWN_SPOT,17,5,TYPE_FLY,5
+          !byte LD_SPAWN_SPOT,22,5,TYPE_FLY,5
+          !byte LD_END
+SN_LEVEL_55
+          !byte LD_LEVEL_CONFIG,3
+          !byte LD_ELEMENT_AREA,9,1,11,4,EL_SN_RED_ROCK_BACKGROUND
+          !byte LD_ELEMENT_AREA,15,13,5,2,EL_SN_RED_ROCK_BACKGROUND
+          !byte LD_AREA,0,0,9,22,215,8
+          !byte LD_AREA,31,0,9,22,215,8
+          !byte LD_AREA,9,18,6,4,215,8
+          !byte LD_AREA,25,18,6,4,215,8
+          !byte LD_ELEMENT_LINE_H,15,21,5,EL_SN_SAND_FLOOR
+          !byte LD_ELEMENT_LINE_H,9,17,3,EL_SN_SAND_FLOOR
+          !byte LD_ELEMENT_LINE_H,25,17,3,EL_SN_SAND_FLOOR
+          !byte LD_ELEMENT,12,14,EL_SN_SAND_STONE_4
+          !byte LD_ELEMENT,18,146
+          !byte LD_ELEMENT,24,142
+          !byte LD_OBJECT,13,13,TYPE_PLAYER_DEAN
+          !byte LD_OBJECT,26,13,TYPE_PLAYER_SAM
+          !byte LD_OBJECT,19,20,TYPE_BOSS5
+          !byte LD_END
+SN_LEVEL_56
+          !byte LD_LEVEL_CONFIG,3
+          !byte LD_ELEMENT_LINE_H,0,5,3,EL_SN_REDROCK
+          !byte LD_ELEMENT_AREA,1,6,19,3,EL_SN_BLUE_ROCK_BACKGROUND
+          !byte LD_ELEMENT_AREA,10,4,8,2,EL_SN_BLUE_ROCK_BACKGROUND
+          !byte LD_ELEMENT_LINE_H,0,17,4,EL_SN_BLUEROCK
+          !byte LD_ELEMENT,7,6,EL_SN_STALACTITE
+          !byte LD_ELEMENT,11,5,EL_SN_STALACTITE_BIG
+          !byte LD_ELEMENT_LINE_H,12,3,3,EL_SN_REDROCK
+          !byte LD_ELEMENT,20,4,EL_SN_STALACTITE_BIG
+          !byte LD_ELEMENT,28,134
+          !byte LD_ELEMENT,16,4,EL_SN_STALACTITE
+          !byte LD_ELEMENT,24,134
+          !byte LD_ELEMENT_LINE_H,24,5,2,EL_SN_REDROCK
+          !byte LD_ELEMENT_LINE_H,31,6,2,EL_SN_REDROCK
+          !byte LD_ELEMENT,23,132
+          !byte LD_ELEMENT,9,132
+          !byte LD_ELEMENT_LINE_H,14,18,3,EL_SN_BLUEROCK
+          !byte LD_ELEMENT_LINE_H,23,17,4,EL_SN_BLUEROCK
+          !byte LD_ELEMENT_LINE_V,0,5,3,EL_SN_REDROCKV
+          !byte LD_ELEMENT_LINE_V,39,6,3,EL_SN_REDROCKV
+          !byte LD_ELEMENT,5,6,EL_SN_STALACTITE_BIG
+          !byte LD_ELEMENT,34,7,EL_SN_STALACTITE
+          !byte LD_OBJECT,3,16,TYPE_PLAYER_DEAN
+          !byte LD_OBJECT,36,16,TYPE_PLAYER_SAM
+          !byte LD_OBJECT,13,16,TYPE_HAND
+          !byte LD_OBJECT,25,16,TYPE_HAND
+          !byte LD_OBJECT,32,16,TYPE_HAND
+          !byte LD_OBJECT,7,16,TYPE_HAND
+          !byte LD_OBJECT,19,17,TYPE_HAND
+          !byte LD_LINE_H,1,6,4,0,0
+          !byte LD_LINE_H,8,6,3,0,0
+          !byte LD_LINE_H,10,5,1,0,0
+          !byte LD_LINE_H,13,4,3,0,0
+          !byte LD_LINE_H,17,4,3,0,0
+          !byte LD_LINE_H,25,6,3,0,0
+          !byte LD_LINE_H,30,7,4,0,0
+          !byte LD_LINE_H,35,7,4,0,0
+          !byte LD_LINE_H,22,4,1,0,0
+          !byte LD_LINE_H,23,5,1,0,0
+          !byte LD_LINE_H,30,6,1,0,0
+          !byte LD_LINE_H,22,5,1,0,0
+          !byte LD_END
+SN_LEVEL_57
+          !byte LD_LEVEL_CONFIG,2
+          !byte LD_ELEMENT_AREA,1,1,8,5,EL_SN_BLUE_ROCK_BACKGROUND
+          !byte LD_ELEMENT_AREA,23,1,8,5,EL_SN_BLUE_ROCK_BACKGROUND
+          !byte LD_ELEMENT_AREA,17,7,3,3,EL_SN_BLUE_ROCK_BACKGROUND
+          !byte LD_ELEMENT_LINE_V,17,0,2,EL_SN_REDROCKV
+          !byte LD_ELEMENT_LINE_V,22,0,2,EL_SN_REDROCKV
+          !byte LD_ELEMENT_LINE_H,17,18,1,EL_SN_REDROCKV
+          !byte LD_ELEMENT,22,146
+          !byte LD_ELEMENT_LINE_V,18,18,4,EL_SN_REDROCK
+          !byte LD_ELEMENT_LINE_H,1,21,4,EL_SN_BLUEROCK
+          !byte LD_ELEMENT_LINE_H,23,21,4,EL_SN_BLUEROCK
+          !byte LD_ELEMENT,19,8,EL_SN_REDROCK
+          !byte LD_ELEMENT,18,135
+          !byte LD_ELEMENT,18,8,EL_SN_STALACTITE_BIG
+          !byte LD_ELEMENT,21,137
+          !byte LD_ELEMENT,20,9,EL_SN_STALACTITE
+          !byte LD_ELEMENT,6,129
+          !byte LD_ELEMENT,10,15,EL_SN_REDROCK
+          !byte LD_ELEMENT,2,140
+          !byte LD_ELEMENT,30,1,EL_SN_STALACTITE_BIG
+          !byte LD_ELEMENT,26,15,EL_SN_REDROCK
+          !byte LD_ELEMENT,34,140
+          !byte LD_OBJECT,12,14,TYPE_PLAYER_DEAN
+          !byte LD_OBJECT,27,14,TYPE_PLAYER_SAM
+          !byte LD_SPAWN_SPOT,3,11,TYPE_FRANKENSTEIN,5
+          !byte LD_SPAWN_SPOT,36,11,TYPE_FRANKENSTEIN,5
+          !byte LD_SPAWN_SPOT,11,6,TYPE_BAT_DIAG,5
+          !byte LD_SPAWN_SPOT,28,6,TYPE_BAT_DIAG,5
+          !byte LD_LINE_H,17,8,1,0,0
+          !byte LD_LINE_H,2,13,4,0,0
+          !byte LD_LINE_H,10,16,4,0,0
+          !byte LD_LINE_H,26,16,4,0,0
+          !byte LD_LINE_H,34,13,4,0,0
+          !byte LD_END
+SN_LEVEL_58
+          !byte LD_LEVEL_CONFIG,2
+          !byte LD_ELEMENT_AREA,1,1,7,5,EL_SN_RED_ROCK_BACKGROUND
+          !byte LD_ELEMENT_LINE_V,15,9,3,EL_SN_RED_ROCK_BACKGROUND
+          !byte LD_AREA,1,18,15,4,215,8
+          !byte LD_ELEMENT_LINE_H,1,17,3,EL_SN_BLUEROCK
+          !byte LD_ELEMENT,14,18,EL_SN_SAND_FLOOR
+          !byte LD_ELEMENT,19,17,EL_SN_RED_ROCK_BACKGROUND
+          !byte LD_ELEMENT_LINE_V,17,13,2,EL_SN_RED_ROCK_BACKGROUND
+          !byte LD_AREA,16,20,8,2,215,8
+          !byte LD_ELEMENT_LINE_H,20,20,2,EL_SN_SAND_FLOOR
+          !byte LD_ELEMENT_LINE_H,16,19,2,EL_SN_SAND_FLOOR
+          !byte LD_LINE_H,24,20,15,111,3
+          !byte LD_ELEMENT_LINE_H,24,21,4,EL_SN_BLUEROCK
+          !byte LD_ELEMENT,12,17,EL_SN_SAND_FLOOR
+          !byte LD_OBJECT,10,16,TYPE_PLAYER_DEAN
+          !byte LD_OBJECT,17,18,TYPE_PLAYER_SAM
+          !byte LD_SPAWN_SPOT,24,6,TYPE_BAT_DIAG,5
+          !byte LD_SPAWN_SPOT,31,14,TYPE_BAT_DIAG,5
+          !byte LD_SPAWN_SPOT,5,11,TYPE_BAT_DIAG,5
+          !byte LD_SPAWN_SPOT,30,20,TYPE_JUMPING_TOAD,5
+          !byte LD_SPAWN_SPOT,35,20,TYPE_JUMPING_TOAD,5
+          !byte LD_END
+SN_LEVEL_59
+          !byte LD_LEVEL_CONFIG,2
+          !byte LD_ELEMENT_LINE_H,13,21,4,EL_SN_BLUEROCK
+          !byte LD_ELEMENT_LINE_H,12,20,4,EL_SN_BLUEROCK
+          !byte LD_ELEMENT,11,149
+          !byte LD_ELEMENT,29,149
+          !byte LD_LINE_H,1,21,10,111,3
+          !byte LD_LINE_H,29,21,10,111,3
+          !byte LD_ELEMENT,13,17,EL_SN_SLIME_STONE_4
+          !byte LD_ELEMENT,23,145
+          !byte LD_ELEMENT,10,142
+          !byte LD_ELEMENT,26,142
+          !byte LD_ELEMENT,22,139
+          !byte LD_ELEMENT,14,139
+          !byte LD_ELEMENT,29,137
+          !byte LD_ELEMENT,4,140
+          !byte LD_ELEMENT,32,140
+          !byte LD_ELEMENT,7,137
+          !byte LD_OBJECT,15,16,TYPE_PLAYER_DEAN
+          !byte LD_OBJECT,24,16,TYPE_PLAYER_SAM
+          !byte LD_SPAWN_SPOT,8,8,TYPE_GHOST_SKELETON,2
+          !byte LD_SPAWN_SPOT,31,8,TYPE_GHOST_SKELETON,2
+          !byte LD_SPAWN_SPOT,20,19,TYPE_GHOST_SKELETON,2
+          !byte LD_END
+SN_LEVEL_60
+          !byte LD_LEVEL_CONFIG,2
+          !byte LD_ELEMENT_LINE_H,0,11,4,EL_SN_BLUEROCK
+          !byte LD_ELEMENT_LINE_H,0,21,10,EL_SN_BLUEROCK
+          !byte LD_ELEMENT_LINE_H,24,11,4,EL_SN_BLUEROCK
+          !byte LD_LINE_H,1,10,16,111,3
+          !byte LD_LINE_H,23,10,16,111,3
+          !byte LD_LINE_H,1,20,38,111,3
+          !byte LD_ELEMENT,6,18,EL_SN_SLIME_STONE_4
+          !byte LD_LINE_V,23,11,9,143,3
+          !byte LD_ELEMENT,30,146
+          !byte LD_ELEMENT,17,146
+          !byte LD_ELEMENT,20,143
+          !byte LD_ELEMENT,17,140
+          !byte LD_ELEMENT,28,135
+          !byte LD_ELEMENT,8,135
+          !byte LD_OBJECT,8,17,TYPE_PLAYER_DEAN
+          !byte LD_OBJECT,31,17,TYPE_PLAYER_SAM
+          !byte LD_SPAWN_SPOT,19,11,TYPE_GHOST_SKELETON,2
+          !byte LD_SPAWN_SPOT,4,10,TYPE_JUMPING_TOAD,5
+          !byte LD_SPAWN_SPOT,36,10,TYPE_JUMPING_TOAD,5
+          !byte LD_SPAWN_SPOT,36,20,TYPE_JUMPING_TOAD,5
+          !byte LD_SPAWN_SPOT,4,20,TYPE_JUMPING_TOAD,5
+          !byte LD_LINE_V,16,11,9,143,3
+          !byte LD_END
+SN_LEVEL_61
+          !byte LD_LEVEL_CONFIG,2
+          !byte LD_AREA,1,1,38,21,143,3
+          !byte LD_ELEMENT,4,19,EL_SN_SLIME_STONE_4
+          !byte LD_ELEMENT,8,144
+          !byte LD_ELEMENT,12,141
+          !byte LD_ELEMENT,32,147
+          !byte LD_ELEMENT,28,144
+          !byte LD_ELEMENT,24,141
+          !byte LD_ELEMENT,18,144
+          !byte LD_ELEMENT,8,138
+          !byte LD_ELEMENT,28,138
+          !byte LD_ELEMENT,32,135
+          !byte LD_ELEMENT,14,135
+          !byte LD_ELEMENT,18,138
+          !byte LD_OBJECT,5,18,TYPE_PLAYER_DEAN
+          !byte LD_OBJECT,34,18,TYPE_PLAYER_SAM
+          !byte LD_SPAWN_SPOT,20,9,TYPE_GHOST_SKELETON,8
+          !byte LD_SPAWN_SPOT,6,6,TYPE_JUMPING_TOAD,2
+          !byte LD_SPAWN_SPOT,33,6,TYPE_JUMPING_TOAD,2
+          !byte LD_END
+SN_LEVEL_62
+          !byte LD_LEVEL_CONFIG,2
+          !byte LD_AREA,7,1,2,5,143,3
+          !byte LD_AREA,16,7,5,5,143,3
+          !byte LD_AREA,31,1,2,5,143,3
+          !byte LD_AREA,9,13,2,8,143,3
+          !byte LD_AREA,34,13,2,8,143,3
+          !byte LD_AREA,24,13,2,8,143,3
+          !byte LD_LINE_H,1,21,38,111,3
+          !byte LD_LINE_H,1,6,16,111,3
+          !byte LD_LINE_H,20,6,19,111,3
+          !byte LD_LINE_H,9,12,27,111,3
+          !byte LD_ELEMENT,10,18,EL_SN_SLIME_STONE_4
+          !byte LD_ELEMENT,21,146
+          !byte LD_ELEMENT,5,144
+          !byte LD_ELEMENT,3,141
+          !byte LD_ELEMENT,18,143
+          !byte LD_ELEMENT,22,140
+          !byte LD_ELEMENT,25,137
+          !byte LD_ELEMENT,34,137
+          !byte LD_ELEMENT,13,138
+          !byte LD_ELEMENT,6,138
+          !byte LD_ELEMENT,9,135
+          !byte LD_ELEMENT,29,135
+          !byte LD_ELEMENT,15,148
+          !byte LD_ELEMENT,4,148
+          !byte LD_ELEMENT,28,148
+          !byte LD_OBJECT,6,19,TYPE_PLAYER_DEAN
+          !byte LD_OBJECT,29,19,TYPE_PLAYER_SAM
+          !byte LD_SPAWN_SPOT,23,11,TYPE_GHOST_SKELETON,5
+          !byte LD_SPAWN_SPOT,15,9,TYPE_GHOST_SKELETON,5
+          !byte LD_END
+SN_LEVEL_63
+          !byte LD_LEVEL_CONFIG,3
+          !byte LD_ELEMENT_LINE_H,10,21,5,EL_SN_BLUEROCK
+          !byte LD_ELEMENT_LINE_V,10,0,2,EL_SN_REDROCKV
+          !byte LD_ELEMENT_LINE_V,9,7,2,EL_SN_REDROCKV
+          !byte LD_ELEMENT_LINE_V,10,14,2,EL_SN_REDROCKV
+          !byte LD_ELEMENT_LINE_V,29,0,2,EL_SN_REDROCKV
+          !byte LD_ELEMENT_LINE_V,30,7,2,EL_SN_REDROCKV
+          !byte LD_ELEMENT_LINE_V,29,14,2,EL_SN_REDROCKV
+          !byte LD_AREA,14,0,4,8,143,3
+          !byte LD_AREA,23,0,3,5,143,3
+          !byte LD_LINE_V,21,6,8,143,3
+          !byte LD_LINE_V,27,6,8,143,3
+          !byte LD_LINE_V,13,9,12,143,3
+          !byte LD_LINE_V,18,9,12,143,3
+          !byte LD_LINE_V,19,15,6,143,3
+          !byte LD_AREA,24,15,2,6,143,3
+          !byte LD_ELEMENT,13,8,EL_SN_SLIME_STONE_4
+          !byte LD_ELEMENT,21,133
+          !byte LD_ELEMENT,24,141
+          !byte LD_ELEMENT,18,142
+          !byte LD_ELEMENT,25,136
+          !byte LD_ELEMENT,19,138
+          !byte LD_ELEMENT,13,144
+          !byte LD_ELEMENT,19,146
+          !byte LD_LINE_H,11,20,18,111,3
+          !byte LD_OBJECT,13,20,TYPE_PLAYER_DEAN
+          !byte LD_OBJECT,26,20,TYPE_PLAYER_SAM
+          !byte LD_SPAWN_SPOT,14,7,TYPE_JUMPING_TOAD,2
+          !byte LD_SPAWN_SPOT,26,12,TYPE_JUMPING_TOAD,2
+          !byte LD_SPAWN_SPOT,20,17,TYPE_JUMPING_TOAD,2
+          !byte LD_END
+SN_LEVEL_64
+          !byte LD_LEVEL_CONFIG,3
+          !byte LD_ELEMENT_LINE_H,21,9,4,EL_SN_BLUEROCK
+          !byte LD_ELEMENT,15,6,EL_SN_REDROCKV
+          !byte LD_ELEMENT,21,134
+          !byte LD_ELEMENT_LINE_H,2,21,9,EL_SN_BLUEROCK
+          !byte LD_ELEMENT_LINE_H,21,6,3,EL_SN_BLUEROCK
+          !byte LD_ELEMENT_LINE_H,4,6,3,EL_SN_BLUEROCK
+          !byte LD_ELEMENT_LINE_H,5,3,7,EL_SN_BLUEROCK
+          !byte LD_ELEMENT,4,3,EL_SN_REDROCKV
+          !byte LD_ELEMENT,33,131
+          !byte LD_ELEMENT_LINE_H,3,9,3,EL_SN_BLUEROCK
+          !byte LD_ELEMENT,2,10,EL_SN_REDROCKV
+          !byte LD_ELEMENT_LINE_V,1,14,2,EL_SN_REDROCKV
+          !byte LD_ELEMENT,37,138
+          !byte LD_ELEMENT_LINE_V,38,14,2,EL_SN_REDROCKV
+          !byte LD_AREA,16,6,5,14,143,3
+          !byte LD_LINE_H,2,20,36,111,3
+          !byte LD_OBJECT,3,20,TYPE_PLAYER_DEAN
+          !byte LD_OBJECT,36,20,TYPE_PLAYER_SAM
+          !byte LD_SPAWN_SPOT,6,5,TYPE_BAT_DIAG,5
+          !byte LD_SPAWN_SPOT,31,5,TYPE_BAT_DIAG,5
+          !byte LD_END
+SN_LEVEL_65
+          !byte LD_LEVEL_CONFIG,2
+          !byte LD_ELEMENT,7,10,EL_SN_REDROCKV
+          !byte LD_ELEMENT,7,10,EL_SN_BLUEROCK
+          !byte LD_ELEMENT,11,139
+          !byte LD_ELEMENT_LINE_H,40,11,2,EL_SN_SLIME_STONE_2
+          !byte LD_LINE_V,6,10,11,143,3
+          !byte LD_ELEMENT,14,12,EL_SN_BLUEROCK
+          !byte LD_ELEMENT_LINE_H,3,16,2,EL_SN_SLIME_STONE_2
+          !byte LD_LINE_H,1,21,38,111,3
+          !byte LD_ELEMENT,15,13,EL_SN_BLUEROCK
+          !byte LD_ELEMENT,11,14,EL_SN_REDROCKV
+          !byte LD_ELEMENT,12,145
+          !byte LD_ELEMENT_LINE_H,12,21,6,EL_SN_BLUEROCK
+          !byte LD_ELEMENT_LINE_H,16,14,2,EL_SN_BLUEROCK
+          !byte LD_ELEMENT_LINE_H,24,15,2,EL_SN_BLUEROCK
+          !byte LD_ELEMENT,35,18,EL_SN_REDROCKV
+          !byte LD_ELEMENT,34,146
+          !byte LD_ELEMENT,32,16,EL_SN_BLUEROCK
+          !byte LD_ELEMENT,38,18,EL_SN_SLIME_STONE_4
+          !byte LD_ELEMENT,58,132
+          !byte LD_ELEMENT,64,133
+          !byte LD_ELEMENT,62,4,EL_SN_SLIME_STONE_2
+          !byte LD_ELEMENT,62,135
+          !byte LD_ELEMENT,62,138
+          !byte LD_ELEMENT,62,129
+          !byte LD_OBJECT,8,9,TYPE_PLAYER_DEAN
+          !byte LD_OBJECT,34,15,TYPE_PLAYER_SAM
+          !byte LD_SPAWN_SPOT,13,10,TYPE_SLIME,5
+          !byte LD_SPAWN_SPOT,30,14,TYPE_SLIME,5
+          !byte LD_SPAWN_SPOT,2,21,TYPE_SLIME,5
+          !byte LD_SPAWN_SPOT,38,21,TYPE_SLIME,5
+          !byte LD_LINE_V,36,16,5,143,3
+          !byte LD_LINE_V,28,6,9,143,3
+          !byte LD_LINE_V,17,5,7,143,3
+          !byte LD_ELEMENT,8,11,EL_SN_REDROCKV
+          !byte LD_ELEMENT,9,140
+          !byte LD_ELEMENT,10,141
+          !byte LD_ELEMENT,9,139
+          !byte LD_ELEMENT,35,145
+          !byte LD_END
+SN_LEVEL_66
+          !byte LD_LEVEL_CONFIG,3
+          !byte LD_ELEMENT_LINE_H,2,22,9,EL_SN_BLUEROCK
+          !byte LD_ELEMENT_LINE_H,0,0,10,EL_SN_BLUEROCK
+          !byte LD_ELEMENT,9,139
+          !byte LD_ELEMENT,27,139
+          !byte LD_ELEMENT_LINE_V,0,1,4,EL_SN_REDROCKV
+          !byte LD_ELEMENT,2,147
+          !byte LD_ELEMENT,1,144
+          !byte LD_ELEMENT,37,147
+          !byte LD_ELEMENT,38,144
+          !byte LD_ELEMENT_LINE_V,39,1,4,EL_SN_REDROCKV
+          !byte LD_ELEMENT,12,14,EL_SN_BLUEROCK
+          !byte LD_ELEMENT,24,142
+          !byte LD_ELEMENT,46,17,EL_SN_SLIME_STONE_2
+          !byte LD_ELEMENT,47,142
+          !byte LD_ELEMENT,44,139
+          !byte LD_ELEMENT,74,139
+          !byte LD_ELEMENT,71,142
+          !byte LD_ELEMENT,72,145
+          !byte LD_OBJECT,12,21,TYPE_PLAYER_DEAN
+          !byte LD_OBJECT,27,21,TYPE_PLAYER_SAM
+          !byte LD_OBJECT,20,9,TYPE_BOSS6
+          !byte LD_END
+SN_LEVEL_67
+          !byte LD_LEVEL_CONFIG,7
+          !byte LD_AREA,8,2,24,19,93,6
+          !byte LD_ELEMENT_LINE_H,6,21,7,EL_SN_BLUEROCK
+          !byte LD_ELEMENT_LINE_V,16,11,2,EL_SN_METAL.DOOR.L
+          !byte LD_ELEMENT_LINE_H,6,0,7,EL_SN_BLUEROCK
+          !byte LD_ELEMENT_LINE_V,18,11,2,EL_SN_METAL.DOOR.R
+          !byte LD_ELEMENT_LINE_V,22,11,2,EL_SN_METAL.DOOR.R
+          !byte LD_ELEMENT_LINE_V,20,11,2,EL_SN_METAL.DOOR.L
+          !byte LD_ELEMENT,6,1,EL_SN_METAL.COLUMN.L.TOP
+          !byte LD_ELEMENT,32,1,EL_SN_METAL.COLUMN.R.TOP
+          !byte LD_ELEMENT_LINE_V,6,2,19,EL_SN_METAL.COLUMN.L.CENTER
+          !byte LD_ELEMENT_LINE_V,32,2,19,EL_SN_METAL.COLUMN.R.CENTER
+          !byte LD_ELEMENT,6,6,EL_SN_METAL.COLUMN.L.HOLE
+          !byte LD_ELEMENT,6,141
+          !byte LD_ELEMENT,32,6,EL_SN_METAL.COLUMN.R.BOTTOM
+          !byte LD_ELEMENT,32,141
+          !byte LD_LINE_H,8,2,24,92,6
+          !byte LD_ELEMENT,9,18,EL_SN_SAND_STONE_4
+          !byte LD_ELEMENT,27,146
+          !byte LD_ELEMENT,26,15,EL_SN_SAND_STONE_2
+          !byte LD_ELEMENT,12,143
+          !byte LD_ELEMENT,13,140
+          !byte LD_ELEMENT,25,140
+          !byte LD_ELEMENT,24,137
+          !byte LD_ELEMENT,14,137
+          !byte LD_ELEMENT,18,8,EL_SN_SAND_STONE_4
+          !byte LD_OBJECT,10,17,TYPE_PLAYER_DEAN
+          !byte LD_OBJECT,29,17,TYPE_PLAYER_SAM
+          !byte LD_SPAWN_SPOT,25,20,TYPE_WOLFMAN,5
+          !byte LD_SPAWN_SPOT,14,20,TYPE_WOLFMAN,5
+          !byte LD_SPAWN_SPOT,20,7,TYPE_FLOATING_GHOST,18
+          !byte LD_SPAWN_SPOT,14,11,TYPE_SPIDER,33
+          !byte LD_SPAWN_SPOT,25,11,TYPE_SPIDER,33
+          !byte LD_LINE_H,8,1,24,0,0
+          !byte LD_ELEMENT_LINE_V,4,0,22,EL_SN_METAL.COLUMN.R.CENTER
+          !byte LD_ELEMENT_LINE_V,34,0,22,EL_SN_METAL.COLUMN.L.CENTER
+          !byte LD_ELEMENT,34,6,EL_SN_METAL.COLUMN.L.HOLE
+          !byte LD_ELEMENT,34,141
+          !byte LD_ELEMENT,4,13,EL_SN_METAL.COLUMN.R.BOTTOM
+          !byte LD_ELEMENT,4,134
+          !byte LD_END
+SN_LEVEL_68
+          !byte LD_LEVEL_CONFIG,7
+          !byte LD_AREA,8,2,24,19,93,6
+          !byte LD_ELEMENT_LINE_V,16,11,2,EL_SN_METAL.DOOR.L
+          !byte LD_ELEMENT_LINE_V,18,11,2,EL_SN_METAL.DOOR.R
+          !byte LD_ELEMENT_LINE_V,22,11,2,EL_SN_METAL.DOOR.R
+          !byte LD_ELEMENT_LINE_V,20,11,2,EL_SN_METAL.DOOR.L
+          !byte LD_LINE_H,8,2,24,92,6
+          !byte LD_ELEMENT_LINE_H,6,0,7,EL_SN_BLUEROCK
+          !byte LD_ELEMENT_LINE_H,6,21,7,EL_SN_BLUEROCK
+          !byte LD_ELEMENT,7,14,EL_SN_SLIME_STONE_2
+          !byte LD_ELEMENT,31,142
+          !byte LD_ELEMENT_LINE_V,6,2,19,EL_SN_METAL.COLUMN.L.CENTER
+          !byte LD_ELEMENT,6,1,EL_SN_METAL.COLUMN.L.TOP
+          !byte LD_ELEMENT_LINE_V,32,2,19,EL_SN_METAL.COLUMN.R.CENTER
+          !byte LD_ELEMENT,32,1,EL_SN_METAL.COLUMN.R.TOP
+          !byte LD_ELEMENT,6,6,EL_SN_METAL.COLUMN.L.HOLE
+          !byte LD_ELEMENT,6,141
+          !byte LD_ELEMENT,32,6,EL_SN_METAL.COLUMN.R.BOTTOM
+          !byte LD_ELEMENT,32,141
+          !byte LD_ELEMENT,13,18,EL_SN_SLIME_STONE_2
+          !byte LD_ELEMENT,25,146
+          !byte LD_ELEMENT,28,144
+          !byte LD_ELEMENT,10,144
+          !byte LD_ELEMENT,10,140
+          !byte LD_ELEMENT,13,138
+          !byte LD_ELEMENT,28,140
+          !byte LD_ELEMENT,25,138
+          !byte LD_ELEMENT,18,9,EL_SN_SLIME_STONE_4
+          !byte LD_OBJECT,14,17,TYPE_PLAYER_DEAN
+          !byte LD_OBJECT,25,17,TYPE_PLAYER_SAM
+          !byte LD_SPAWN_SPOT,20,14,TYPE_FLOATING_GHOST,4
+          !byte LD_SPAWN_SPOT,10,5,TYPE_FLY,18
+          !byte LD_SPAWN_SPOT,29,5,TYPE_FLY,18
+          !byte LD_SPAWN_SPOT,29,19,TYPE_FLY,18
+          !byte LD_SPAWN_SPOT,10,19,TYPE_FLY,18
+          !byte LD_SPAWN_SPOT,19,8,TYPE_MUMMY,34
+          !byte LD_SPAWN_SPOT,20,20,TYPE_MUMMY,34
+          !byte LD_SPAWN_SPOT,13,9,TYPE_ZOMBIE,34
+          !byte LD_SPAWN_SPOT,26,9,TYPE_ZOMBIE,34
+          !byte LD_LINE_H,8,1,24,0,0
+          !byte LD_ELEMENT_LINE_V,4,0,22,EL_SN_METAL.COLUMN.R.CENTER
+          !byte LD_ELEMENT_LINE_V,34,0,22,EL_SN_METAL.COLUMN.L.CENTER
+          !byte LD_ELEMENT,34,6,EL_SN_METAL.COLUMN.L.HOLE
+          !byte LD_ELEMENT,34,141
+          !byte LD_ELEMENT,4,13,EL_SN_METAL.COLUMN.R.BOTTOM
+          !byte LD_ELEMENT,4,134
+          !byte LD_END
+SN_LEVEL_69
+          !byte LD_LEVEL_CONFIG,7
+          !byte LD_AREA,8,2,24,19,93,6
+          !byte LD_LINE_H,8,2,24,92,6
+          !byte LD_ELEMENT_LINE_H,6,0,7,EL_SN_BLUEROCK
+          !byte LD_ELEMENT_LINE_H,6,21,7,EL_SN_BLUEROCK
+          !byte LD_ELEMENT_LINE_V,6,2,19,EL_SN_METAL.COLUMN.L.CENTER
+          !byte LD_ELEMENT,6,1,EL_SN_METAL.COLUMN.L.TOP
+          !byte LD_ELEMENT,6,6,EL_SN_METAL.COLUMN.L.HOLE
+          !byte LD_ELEMENT,6,141
+          !byte LD_ELEMENT,32,1,EL_SN_METAL.COLUMN.R.TOP
+          !byte LD_ELEMENT_LINE_V,32,2,19,EL_SN_METAL.COLUMN.R.CENTER
+          !byte LD_ELEMENT,32,6,EL_SN_METAL.COLUMN.R.BOTTOM
+          !byte LD_ELEMENT,32,141
+          !byte LD_ELEMENT_LINE_V,16,11,2,EL_SN_METAL.DOOR.L
+          !byte LD_ELEMENT_LINE_V,20,11,2,EL_SN_METAL.DOOR.L
+          !byte LD_ELEMENT_LINE_V,18,11,2,EL_SN_METAL.DOOR.R
+          !byte LD_ELEMENT_LINE_V,22,11,2,EL_SN_METAL.DOOR.R
+          !byte LD_ELEMENT,10,9,EL_SN_SLIME_STONE_4
+          !byte LD_ELEMENT,26,137
+          !byte LD_ELEMENT,11,12,EL_SN_SLIME_STONE_2
+          !byte LD_ELEMENT,11,143
+          !byte LD_ELEMENT,11,146
+          !byte LD_ELEMENT,27,146
+          !byte LD_ELEMENT,27,143
+          !byte LD_ELEMENT,27,140
+          !byte LD_OBJECT,12,17,TYPE_PLAYER_DEAN
+          !byte LD_OBJECT,27,17,TYPE_PLAYER_SAM
+          !byte LD_SPAWN_SPOT,9,20,TYPE_ZOMBIE,2
+          !byte LD_SPAWN_SPOT,30,20,TYPE_ZOMBIE,2
+          !byte LD_SPAWN_SPOT,20,14,TYPE_BAT_VANISH,2
+          !byte LD_SPAWN_SPOT,11,8,TYPE_SPIDER,18
+          !byte LD_SPAWN_SPOT,28,8,TYPE_SPIDER,18
+          !byte LD_SPAWN_SPOT,11,14,TYPE_WOLFMAN,33
+          !byte LD_SPAWN_SPOT,28,14,TYPE_WOLFMAN,33
+          !byte LD_LINE_H,8,1,24,0,0
+          !byte LD_ELEMENT_LINE_V,4,0,22,EL_SN_METAL.COLUMN.R.CENTER
+          !byte LD_ELEMENT_LINE_V,34,0,22,EL_SN_METAL.COLUMN.L.CENTER
+          !byte LD_ELEMENT,34,6,EL_SN_METAL.COLUMN.L.HOLE
+          !byte LD_ELEMENT,34,141
+          !byte LD_ELEMENT,4,13,EL_SN_METAL.COLUMN.R.BOTTOM
+          !byte LD_ELEMENT,4,134
+          !byte LD_END
+SN_LEVEL_70
+          !byte LD_LEVEL_CONFIG,7
+          !byte LD_AREA,8,2,24,19,93,6
+          !byte LD_LINE_H,8,2,24,92,6
+          !byte LD_ELEMENT,6,15,EL_SN_SLIME_STONE_4
+          !byte LD_ELEMENT_LINE_H,6,0,7,EL_SN_BLUEROCK
+          !byte LD_ELEMENT_LINE_H,6,21,7,EL_SN_BLUEROCK
+          !byte LD_ELEMENT_LINE_V,6,2,19,EL_SN_METAL.COLUMN.L.CENTER
+          !byte LD_ELEMENT,6,1,EL_SN_METAL.COLUMN.L.TOP
+          !byte LD_ELEMENT,30,15,EL_SN_SLIME_STONE_4
+          !byte LD_ELEMENT,18,137
+          !byte LD_ELEMENT,6,6,EL_SN_METAL.COLUMN.L.HOLE
+          !byte LD_ELEMENT,6,141
+          !byte LD_ELEMENT_LINE_V,32,2,19,EL_SN_METAL.COLUMN.R.CENTER
+          !byte LD_ELEMENT,32,1,EL_SN_METAL.COLUMN.R.TOP
+          !byte LD_ELEMENT,32,6,EL_SN_METAL.COLUMN.R.BOTTOM
+          !byte LD_ELEMENT,32,141
+          !byte LD_ELEMENT_LINE_V,16,11,2,EL_SN_METAL.DOOR.L
+          !byte LD_ELEMENT_LINE_V,20,11,2,EL_SN_METAL.DOOR.L
+          !byte LD_ELEMENT_LINE_V,18,11,2,EL_SN_METAL.DOOR.R
+          !byte LD_ELEMENT_LINE_V,22,11,2,EL_SN_METAL.DOOR.R
+          !byte LD_ELEMENT,12,18,EL_SN_SLIME_STONE_4
+          !byte LD_ELEMENT,24,146
+          !byte LD_ELEMENT,24,140
+          !byte LD_ELEMENT,12,140
+          !byte LD_OBJECT,9,20,TYPE_PLAYER_DEAN
+          !byte LD_OBJECT,30,20,TYPE_PLAYER_SAM
+          !byte LD_SPAWN_SPOT,13,17,TYPE_WOLFMAN,2
+          !byte LD_SPAWN_SPOT,26,17,TYPE_WOLFMAN,2
+          !byte LD_SPAWN_SPOT,19,7,TYPE_GHOST_SKELETON,17
+          !byte LD_SPAWN_SPOT,14,11,TYPE_SPIDER,34
+          !byte LD_SPAWN_SPOT,25,11,TYPE_SPIDER,34
+          !byte LD_SPAWN_SPOT,20,17,TYPE_GHOST_SKELETON,49
+          !byte LD_LINE_H,8,1,24,0,0
+          !byte LD_ELEMENT_LINE_V,4,0,22,EL_SN_METAL.COLUMN.R.CENTER
+          !byte LD_ELEMENT_LINE_V,34,0,22,EL_SN_METAL.COLUMN.L.CENTER
+          !byte LD_ELEMENT,34,6,EL_SN_METAL.COLUMN.L.HOLE
+          !byte LD_ELEMENT,34,141
+          !byte LD_ELEMENT,4,13,EL_SN_METAL.COLUMN.R.BOTTOM
+          !byte LD_ELEMENT,4,134
+          !byte LD_END
+SN_LEVEL_71
+          !byte LD_LEVEL_CONFIG,7
+          !byte LD_AREA,8,2,24,19,93,6
+          !byte LD_LINE_H,8,2,24,92,6
+          !byte LD_ELEMENT_LINE_H,6,0,7,EL_SN_BLUEROCK
+          !byte LD_ELEMENT_LINE_H,6,21,7,EL_SN_BLUEROCK
+          !byte LD_ELEMENT_LINE_V,6,2,19,EL_SN_METAL.COLUMN.L.CENTER
+          !byte LD_ELEMENT,6,1,EL_SN_METAL.COLUMN.L.TOP
+          !byte LD_ELEMENT,6,6,EL_SN_METAL.COLUMN.L.HOLE
+          !byte LD_ELEMENT,6,141
+          !byte LD_ELEMENT_LINE_V,32,2,19,EL_SN_METAL.COLUMN.R.CENTER
+          !byte LD_ELEMENT,32,1,EL_SN_METAL.COLUMN.R.TOP
+          !byte LD_ELEMENT,32,6,EL_SN_METAL.COLUMN.R.BOTTOM
+          !byte LD_ELEMENT,32,141
+          !byte LD_ELEMENT_LINE_V,16,11,2,EL_SN_METAL.DOOR.L
+          !byte LD_ELEMENT_LINE_V,20,11,2,EL_SN_METAL.DOOR.L
+          !byte LD_ELEMENT_LINE_V,18,11,2,EL_SN_METAL.DOOR.R
+          !byte LD_ELEMENT_LINE_V,22,11,2,EL_SN_METAL.DOOR.R
+          !byte LD_ELEMENT,12,18,EL_SN_SLIME_STONE_4
+          !byte LD_ELEMENT,24,146
+          !byte LD_ELEMENT,26,143
+          !byte LD_ELEMENT,28,140
+          !byte LD_ELEMENT,10,143
+          !byte LD_ELEMENT,8,140
+          !byte LD_ELEMENT,10,137
+          !byte LD_ELEMENT,26,137
+          !byte LD_ELEMENT,24,134
+          !byte LD_ELEMENT,12,134
+          !byte LD_OBJECT,9,20,TYPE_PLAYER_DEAN
+          !byte LD_OBJECT,30,20,TYPE_PLAYER_SAM
+          !byte LD_SPAWN_SPOT,20,11,TYPE_GHOST_SKELETON,1
+          !byte LD_SPAWN_SPOT,11,5,TYPE_GHOST_SKELETON,33
+          !byte LD_SPAWN_SPOT,28,5,TYPE_GHOST_SKELETON,65
+          !byte LD_SPAWN_SPOT,9,11,TYPE_SPIDER,18
+          !byte LD_SPAWN_SPOT,30,11,TYPE_SPIDER,18
+          !byte LD_SPAWN_SPOT,25,17,TYPE_SPIDER,50
+          !byte LD_SPAWN_SPOT,14,17,TYPE_SPIDER,50
+          !byte LD_ELEMENT_LINE_V,4,0,22,EL_SN_METAL.COLUMN.R.CENTER
+          !byte LD_ELEMENT,4,6,EL_SN_METAL.COLUMN.R.BOTTOM
+          !byte LD_ELEMENT,4,141
+          !byte LD_ELEMENT_LINE_V,34,0,22,EL_SN_METAL.COLUMN.L.CENTER
+          !byte LD_ELEMENT,34,13,EL_SN_METAL.COLUMN.L.HOLE
+          !byte LD_ELEMENT,34,134
+          !byte LD_END
+SN_LEVEL_72
+          !byte LD_LEVEL_CONFIG,11
+          !byte LD_ELEMENT_LINE_H,0,21,10,EL_SN_REDROCK
+          !byte LD_ELEMENT_LINE_V,0,5,16,EL_SN_METAL.COLUMN.L.CENTER
+          !byte LD_ELEMENT_LINE_V,38,5,16,EL_SN_METAL.COLUMN.R.CENTER
+          !byte LD_ELEMENT,0,9,EL_SN_METAL.COLUMN.L.HOLE
+          !byte LD_ELEMENT,0,143
+          !byte LD_ELEMENT,38,9,EL_SN_METAL.COLUMN.R.BOTTOM
+          !byte LD_ELEMENT_LINE_H,0,4,2,EL_SN_REDROCK
+          !byte LD_ELEMENT,38,15,EL_SN_METAL.COLUMN.R.BOTTOM
+          !byte LD_ELEMENT_LINE_H,32,4,2,EL_SN_REDROCK
+          !byte LD_ELEMENT_LINE_V,10,1,4,EL_SN_METAL.COLUMN.L.CENTER
+          !byte LD_ELEMENT_LINE_V,28,1,4,EL_SN_METAL.COLUMN.R.CENTER
+          !byte LD_ELEMENT,28,2,EL_SN_METAL.COLUMN.R.BOTTOM
+          !byte LD_ELEMENT,10,2,EL_SN_METAL.COLUMN.L.HOLE
+          !byte LD_ELEMENT_LINE_V,30,1,4,EL_SN_METAL.COLUMN.L.CENTER
+          !byte LD_ELEMENT_LINE_V,8,1,4,EL_SN_METAL.COLUMN.R.CENTER
+          !byte LD_ELEMENT,8,2,EL_SN_METAL.COLUMN.R.BOTTOM
+          !byte LD_ELEMENT,30,2,EL_SN_METAL.COLUMN.L.HOLE
+          !byte LD_ELEMENT_LINE_H,8,0,6,EL_SN_REDROCK
+          !byte LD_OBJECT,6,20,TYPE_PLAYER_DEAN
+          !byte LD_OBJECT,33,20,TYPE_PLAYER_SAM
+          !byte LD_ELEMENT,8,18,EL_SN_SAND_STONE_4
+          !byte LD_ELEMENT,28,146
+          !byte LD_ELEMENT,31,143
+          !byte LD_ELEMENT,5,143
+          !byte LD_ELEMENT,8,12,EL_SN_SAND_STONE_2
+          !byte LD_ELEMENT,30,140
+          !byte LD_ELEMENT,0,5,EL_SN_METAL.COLUMN.L.TOP
+          !byte LD_ELEMENT,38,5,EL_SN_METAL.COLUMN.R.TOP
+          !byte LD_ELEMENT,30,1,EL_SN_METAL.COLUMN.L.TOP
+          !byte LD_ELEMENT,10,129
+          !byte LD_ELEMENT,28,1,EL_SN_METAL.COLUMN.R.TOP
+          !byte LD_ELEMENT,8,129
+          !byte LD_END
+
