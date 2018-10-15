@@ -12,14 +12,11 @@ brew install acme vice
 ### Examples
 
 ```bash
-# creates a binary called build/colors.prg
+# create binary at build/colors.prg
 acme --cpu 6510 colors.asm
 
-
+# create c64 floppy image called colors.d64, you can drag/drop the .d64 file onto x64
 /Applications/Vice64/tools/c1541 -format diskname,id d64 colors.d64 -write build/colors.prg colors.prg
-
-
-/Applications/Vice64/tools/c1541 -format diskname,id d64 jmain.d64 -write jmain.prg jmain.prg
 ```
 
 ### Additional Resources
